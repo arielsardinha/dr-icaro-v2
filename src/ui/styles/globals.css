@@ -1,0 +1,45 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "giveny";
+  src: url("../../../public//font/giveny.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "gishabd";
+  src: url("../../../public/font/gishabd.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "mongolian";
+  src: url("../../../public/font/mongolian-baiti.ttf") format("truetype");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", "Roboto", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg_video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+}
