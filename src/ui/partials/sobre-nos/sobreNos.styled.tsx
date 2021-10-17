@@ -37,7 +37,7 @@ export const BoxEquipe = styled("div")`
 `;
 
 export const ContainerDrIcaro = styled("section")`
-  background-image: url("sobre-nos/dr-icaro-back.png");
+  background-image: url("/sobre-nos/dr-icaro-back.png");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;

@@ -31,46 +31,46 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <BoxImg>
-        <Image src="galeria/01.png" alt="" loading="lazy" />
+        <Image src="/galeria/01.png" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/02.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/02.jpg" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/03.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/03.jpg" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/04.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/04.jpg" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/05.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/05.jpg" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/06.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/06.jpg" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/07.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/07.jpg" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/08.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/08.jpg" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/09.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/09.jpg" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/10.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/10.jpg" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/11.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/11.jpg" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/12.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/12.jpg" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/13.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/13.jpg" alt="" />
       </BoxImg>
       <BoxImg>
-        <Image src="galeria/14.jpg" alt="" loading="lazy" />
+        <Image src="/galeria/14.jpg" alt="" />
       </BoxImg>
     </Slider>
   );

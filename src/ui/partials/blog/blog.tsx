@@ -3,8 +3,8 @@ const Blog = () => (
   <>
     <Section>
       <h1>Em breve !</h1>
-      <video autoPlay loop className="bg_video">
-        <source src="video/backVideo.mp4" type="video/mp4" />
+      <video muted={true} autoPlay loop className="bg_video">
+        <source src="/video/backVideo.mp4" type="video/mp4" />
       </video>
     </Section>
   </>

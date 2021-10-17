@@ -39,7 +39,7 @@ const DrIcaro = () => (
           rel="noreferrer"
         >
           <img
-            src="icons/cirurgia-plastica.png"
+            src="/icons/cirurgia-plastica.png"
             alt="cirurgia-plastica"
             loading="lazy"
           />
@@ -50,7 +50,7 @@ const DrIcaro = () => (
           rel="noreferrer"
         >
           <img
-            src="icons/american-society.png"
+            src="/icons/american-society.png"
             alt="american society"
             loading="lazy"
           />
@@ -60,9 +60,9 @@ const DrIcaro = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <img src="icons/total-define.png" alt="total define" loading="lazy" />
+          <img src="/icons/total-define.png" alt="total define" loading="lazy" />
         </a>
-        <img src="icons/rr.png" alt="r24r" loading="lazy" />
+        <img src="/icons/rr.png" alt="r24r" loading="lazy" />
       </BoxImages>
     </BoxTextoIcaro>
   </Box>

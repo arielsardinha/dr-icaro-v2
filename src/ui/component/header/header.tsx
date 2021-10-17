@@ -1,4 +1,4 @@
-import { Container as MuiContainer, Box, Typography } from "@material-ui/core";
+import { Container as MuiContainer, Box } from "@material-ui/core";
 import { BoxHeader, Title, Logo, Container } from "./header.styled";
 import Procedmentos from "./components/procedimentos";
 import DrIcaro from "./components/drIcaro";

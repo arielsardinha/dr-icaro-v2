@@ -23,7 +23,7 @@ const Ninfoplastia = () => (
 export default Ninfoplastia;
 
 const SectionImg = styled("div")`
-  background-image: url("procedimentos/ninfoplastia.png");
+  background-image: url("/procedimentos/ninfoplastia.png");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

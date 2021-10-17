@@ -21,7 +21,7 @@ const MaisContaudo = () => (
         >
           <img
             loading="lazy"
-            src="instagram.png"
+            src="/instagram.png"
             alt="instagram dr. ícaro samel"
           />
         </a>
@@ -30,7 +30,7 @@ const MaisContaudo = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <img loading="lazy" src="ticktok.png" alt="ticktok dr. ícaro samel" />
+          <img loading="lazy" src="/ticktok.png" alt="ticktok dr. ícaro samel" />
         </a>
         <a
           href="https://www.youtube.com/channel/UCWsp-p8Z33mjBAYqjXDoxZA"
@@ -39,7 +39,7 @@ const MaisContaudo = () => (
         >
           <img
             loading="lazy"
-            src="icons/youtube.png"
+            src="/icons/youtube.png"
             alt="youtube dr. ícaro samel"
           />
         </a>
@@ -48,7 +48,7 @@ const MaisContaudo = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <img loading="lazy" src="podcast.png" alt="podcast dr. ícaro samel" />
+          <img loading="lazy" src="/podcast.png" alt="podcast dr. ícaro samel" />
         </a>
       </BoxImage>
     </Box>

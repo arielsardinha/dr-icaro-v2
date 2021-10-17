@@ -31,34 +31,34 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <BoxImg>
-        <Image src="local/01.jpeg" alt="" loading="lazy" />
+        <Image src="/local/01.jpeg" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="local/02.jpeg" alt="" loading="lazy" />
+        <Image src="/local/02.jpeg" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="local/03.jpeg" alt="" loading="lazy" />
+        <Image src="/local/03.jpeg" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="local/04.jpeg" alt="" loading="lazy" />
+        <Image src="/local/04.jpeg" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="local/05.jpeg" alt="" loading="lazy" />
+        <Image src="/local/05.jpeg" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="local/06.jpeg" alt="" loading="lazy" />
+        <Image src="/local/06.jpeg" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="local/07.jpeg" alt="" loading="lazy" />
+        <Image src="/local/07.jpeg" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="local/08.jpeg" alt="" loading="lazy" />
+        <Image src="/local/08.jpeg" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="local/09.jpeg" alt="" loading="lazy" />
+        <Image src="/local/09.jpeg" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="local/10.jpeg" alt="" loading="lazy" />
+        <Image src="/local/10.jpeg" alt="" loading="lazy" />
       </BoxImg>
     </Slider>
   );

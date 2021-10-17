@@ -9,6 +9,9 @@ import Footer from "ui/component/footer/footer";
 
 export const DrIcaro = () => (
   <ContainerDrIcaro>
+    <video muted={true}  autoPlay loop className="bg_video">
+      <source src="/video/backVideo.mp4" type="video/mp4" />
+    </video>
     <ConhecaDrIcaro>
       <h1>Conheça Dr. Ícaro</h1>
     </ConhecaDrIcaro>
@@ -53,7 +56,7 @@ export const DrIcaro = () => (
             rel="noreferrer"
           >
             <img
-              src="icons/cirurgia-plastica.png"
+              src="/icons/cirurgia-plastica.png"
               alt="cirurgia-plastica"
               loading="lazy"
             />
@@ -64,7 +67,7 @@ export const DrIcaro = () => (
             rel="noreferrer"
           >
             <img
-              src="icons/american-society.png"
+              src="/icons/american-society.png"
               alt="american society"
               loading="lazy"
             />
@@ -75,12 +78,12 @@ export const DrIcaro = () => (
             rel="noreferrer"
           >
             <img
-              src="icons/total-define.png"
+              src="/icons/total-define.png"
               alt="total define"
               loading="lazy"
             />
           </a>
-          <img src="icons/rr.png" alt="r24r" loading="lazy" />
+          <img src="/icons/rr.png" alt="r24r" loading="lazy" />
         </BoxImages>
       </BoxTexts>
     </Container>

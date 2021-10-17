@@ -16,6 +16,9 @@ export const Title = styled("h2")`
   color: transparent;
   margin: 0;
   font-size: 5em;
+  ${({ theme }) => theme.breakpoints.down("sm")} {
+    font-size: 3em;
+  }
   ${({ theme }) => theme.breakpoints.down("xs")} {
     font-size: 2.5em;
   }
@@ -78,7 +81,7 @@ export const Container = styled(MuiContainer)`
     position: relative;
     top: -25px;
   }
-  ${({ theme }) => theme.breakpoints.down("xs")} {
+  ${({ theme }) => theme.breakpoints.down("md")} {
     height: 100vh;
     p {
       top: 0;

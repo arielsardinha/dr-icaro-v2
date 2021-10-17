@@ -6,7 +6,7 @@ export const Section = styled("section")`
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: url("clinica/fundo.png");
+  background-image: url("/clinica/fundo.png");
   background-position: center;
   background-size: cover;
   padding: ${({ theme }) => theme.spacing(10, 0)};

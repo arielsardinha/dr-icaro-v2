@@ -23,7 +23,7 @@ const Mastopexia = () => (
 export default Mastopexia;
 
 const SectionImg = styled("div")`
-  background-image: url("procedimentos/mastopexia.png");
+  background-image: url("/procedimentos/mastopexia.png");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

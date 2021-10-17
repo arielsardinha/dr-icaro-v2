@@ -49,8 +49,8 @@ const Contato = () => (
     <Box sx={{ position: "relative" }}>
       <Footer />
     </Box>
-    <video autoPlay loop className="bg_video">
-      <source src="video/backVideo.mp4" type="video/mp4" />
+    <video muted={true} autoPlay loop className="bg_video">
+      <source src="/video/backVideo.mp4" type="video/mp4" />
     </video>
   </>
 );

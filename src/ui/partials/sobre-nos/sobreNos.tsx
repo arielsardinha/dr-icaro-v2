@@ -11,8 +11,8 @@ const SobreNos = ({ sobreNos }) => {
     return (
       <BoxStyled>
         <BoxUsers>
-          <video autoPlay loop className="bg_video">
-            <source src="video/backVideo.mp4" type="video/mp4" />
+          <video muted={true} autoPlay loop className="bg_video">
+            <source src="/video/backVideo.mp4" type="video/mp4" />
           </video>
 
           <NextLink href="/dr-icaro">
@@ -21,7 +21,7 @@ const SobreNos = ({ sobreNos }) => {
                 name={"Dr. Ícaro Samuel"}
                 title={"CIRURGIÃO PLÁSTICO"}
                 description={"Minha função é realizar sonhos!"}
-                picture={"Dr-ICaro-mini.png"}
+                picture={"/Dr-ICaro-mini.png"}
                 isDoctor={true}
               ></UserInformation>
             </a>
@@ -41,7 +41,7 @@ const SobreNos = ({ sobreNos }) => {
           pós-operatório, tanto no hospital
           quanto na clínica.
           "
-              picture={"Gabriela.png"}
+              picture={"/Gabriela.png"}
             ></UserInformation>
 
             <UserInformation
@@ -52,7 +52,7 @@ const SobreNos = ({ sobreNos }) => {
           equipe cirúrgica e as nossas pacientes
           durante o pré, trans e pós-operatório.
           "
-              picture={"Patricia.png"}
+              picture={"/Patricia.png"}
             ></UserInformation>
 
             <UserInformation
@@ -65,7 +65,7 @@ const SobreNos = ({ sobreNos }) => {
           evitando sempre qualquer tipo de
           contaminação no Sítio Cirúrgico.
           "
-              picture={"Samir.png"}
+              picture={"/Samir.png"}
             ></UserInformation>
 
             <UserInformation
@@ -77,7 +77,7 @@ const SobreNos = ({ sobreNos }) => {
           realizando as drenagens linfática, taping
           compressivo e talas anatômicas.
           "
-              picture={"Havena.png"}
+              picture={"/Havena.png"}
             ></UserInformation>
 
             <UserInformation
@@ -88,7 +88,7 @@ const SobreNos = ({ sobreNos }) => {
           e cuidar dos matérias desde do início
           da cirurgia até o final.
           "
-              picture={"Dalila.png"}
+              picture={"/Dalila.png"}
             ></UserInformation>
 
             <UserInformation
@@ -100,7 +100,7 @@ const SobreNos = ({ sobreNos }) => {
           Monitoro e auxiliamos nos primeiros banhos,
           curativos, cuidados e avaliações durante
           a primeira fase após a cirurgia."
-              picture={"Evan.png"}
+              picture={"/Evan.png"}
             ></UserInformation>
 
             <UserInformation
@@ -112,7 +112,7 @@ const SobreNos = ({ sobreNos }) => {
           com que elas busquem o
           autoconhecimento.
           "
-              picture={"Lenicio.png"}
+              picture={"/Lenicio.png"}
             ></UserInformation>
 
             <UserInformation
@@ -124,7 +124,7 @@ const SobreNos = ({ sobreNos }) => {
           ajudando assim na sua transformação
           alimentar.
           "
-              picture={"Tania.png"}
+              picture={"/Tania.png"}
             ></UserInformation>
 
             <UserInformation
@@ -135,7 +135,7 @@ const SobreNos = ({ sobreNos }) => {
           garantindo que você receba o melhor
           de toda a equipe.
           "
-              picture={"Lucas.png"}
+              picture={"/Lucas.png"}
             ></UserInformation>
 
             <UserInformation
@@ -146,7 +146,7 @@ const SobreNos = ({ sobreNos }) => {
           clínica e vou lhe ajudar no Planejamento
           do seu sonho.
           "
-              picture={"Milena.png"}
+              picture={"/Milena.png"}
             ></UserInformation>
 
             <UserInformation
@@ -157,7 +157,7 @@ const SobreNos = ({ sobreNos }) => {
           do seu sonho, sempre buscando
           a sua melhor experiência.
           "
-              picture={"Maykon.png"}
+              picture={"/Maykon.png"}
             ></UserInformation>
           </BoxEquipe>
         </BoxUsers>
@@ -170,7 +170,7 @@ const SobreNos = ({ sobreNos }) => {
     return (
       <BoxStyled>
         <video autoPlay loop className="bg_video">
-          <source src="video/backVideo.mp4" type="video/mp4" />
+          <source src="/video/backVideo.mp4" type="video/mp4" />
         </video>
 
         <DrIcaro />

@@ -32,13 +32,13 @@ const Carousel = () => {
     <BoxPrincipal>
       <Slider {...settings}>
         <BoxImg>
-          <Image src="clinica/01.png" alt="" loading="lazy" />
+          <Image src="/clinica/01.png" alt="" loading="lazy" />
         </BoxImg>
         <BoxImg>
-          <Image src="clinica/02.png" alt="" loading="lazy" />
+          <Image src="/clinica/02.png" alt="" loading="lazy" />
         </BoxImg>
         <BoxImg>
-          <Image src="clinica/03.png" alt="" loading="lazy" />
+          <Image src="/clinica/03.png" alt="" loading="lazy" />
         </BoxImg>
       </Slider>
     </BoxPrincipal>
@@ -74,13 +74,13 @@ export const CarouselSegundo = () => {
     <BoxPrincipal>
       <Slider {...settings}>
         <BoxImg>
-          <Image src="clinica/04.png" alt="" loading="lazy" />
+          <Image src="/clinica/04.png" alt="" loading="lazy" />
         </BoxImg>
         <BoxImg>
-          <Image src="clinica/05.png" alt="" loading="lazy" />
+          <Image src="/clinica/05.png" alt="" loading="lazy" />
         </BoxImg>
         <BoxImg>
-          <Image src="clinica/06.png" alt="" loading="lazy" />
+          <Image src="/clinica/06.png" alt="" loading="lazy" />
         </BoxImg>
       </Slider>
     </BoxPrincipal>

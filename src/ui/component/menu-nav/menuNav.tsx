@@ -52,28 +52,28 @@ const HeaderDesktop = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="iconMenu/intagram.png" alt="instagram" />
+              <img src="/iconMenu/intagram.png" alt="instagram" />
             </a>
             <a
               href="https://www.tiktok.com/@dricarosamuel?lang=pt-BR"
               target="_blank"
               rel="noreferrer"
             >
-              <img src="iconMenu/tiktok.png" alt="ticktok" />
+              <img src="/iconMenu/tiktok.png" alt="ticktok" />
             </a>
             <a
               href="https://www.facebook.com/dricarosamuel/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src="iconMenu/facebook.png" alt="facebook" />
+              <img src="/iconMenu/facebook.png" alt="facebook" />
             </a>
             <a
               href="https://www.youtube.com/channel/UCWsp-p8Z33mjBAYqjXDoxZA"
               target="_blank"
               rel="noreferrer"
             >
-              <img src="iconMenu/youtube.png" alt="youtube" />
+              <img src="/iconMenu/youtube.png" alt="youtube" />
             </a>
           </BoxIcons>
         </NavBar>
@@ -83,12 +83,10 @@ const HeaderDesktop = () => {
 };
 
 const HeaderMobile = () => {
-  const [isDrawerOpen, setDrawerOpen] = useState(false);
-  const [toogle, setToogle] = useState({
-    procedimentos: false,
-    sobreNos: false,
-    clinica: false,
-  });
+  const [isDrawerOpen, setDrawerOpen] = useState(false),
+    [procedimentos, setProcedimentos] = useState(false),
+    [sobreNos, setSobreNos] = useState(false),
+    [clinica, setClinica] = useState(false);
   return (
     <HeaderAppBar>
       <Toolbar component={Container}>
@@ -96,11 +94,9 @@ const HeaderMobile = () => {
           edge={"start"}
           color={"inherit"}
           onClick={() => {
-            setToogle({
-              procedimentos: false,
-              sobreNos: false,
-              clinica: false,
-            });
+            setProcedimentos(false);
+            setSobreNos(false);
+            setClinica(false);
             setDrawerOpen(true);
           }}
         >
@@ -125,17 +121,17 @@ const HeaderMobile = () => {
               </NextLink>
               <Box
                 sx={{
-                  height: toogle.sobreNos ? "170px" : "0",
+                  height: sobreNos ? "170px" : "0",
+                  overflow: sobreNos ? "visible" : "hidden",
                   marginBottom: "20px",
                 }}
               >
                 <button
                   onClick={() => {
-                    setToogle({
-                      procedimentos: false,
-                      sobreNos: true,
-                      clinica: false,
-                    });
+                    sobreNos;
+                    procedimentos && setProcedimentos(false);
+                    clinica && setClinica(false);
+                    setSobreNos(!sobreNos);
                   }}
                 >
                   <SobreNos />
@@ -143,17 +139,16 @@ const HeaderMobile = () => {
               </Box>
               <Box
                 sx={{
-                  height: toogle.procedimentos ? "370px" : "0",
+                  height: procedimentos ? "370px" : "0",
+                  overflow: procedimentos ? "visible" : "hidden",
                   marginBottom: "20px",
                 }}
               >
                 <button
                   onClick={() => {
-                    setToogle({
-                      procedimentos: true,
-                      sobreNos: false,
-                      clinica: false,
-                    });
+                    clinica && setClinica(false);
+                    sobreNos && setSobreNos(false);
+                    setProcedimentos(!procedimentos);
                   }}
                 >
                   <Procedimentos />
@@ -161,17 +156,16 @@ const HeaderMobile = () => {
               </Box>
               <Box
                 sx={{
-                  height: toogle.clinica ? "170px" : "0",
+                  height: clinica ? "170px" : "0",
+                  overflow: clinica ? "visible" : "hidden",
                   marginBottom: "20px",
                 }}
               >
                 <button
                   onClick={() => {
-                    setToogle({
-                      procedimentos: false,
-                      sobreNos: false,
-                      clinica: true,
-                    });
+                    procedimentos && setProcedimentos(false);
+                    sobreNos && setSobreNos(false);
+                    setClinica(!clinica);
                   }}
                 >
                   <Clinica />
