@@ -43,3 +43,10 @@ a {
   height: auto;
   z-index: -1000;
 }
+
+.slick-prev {
+  left: -20% !important;
+}
+.slick-next {
+  right: -20% !important;
+}

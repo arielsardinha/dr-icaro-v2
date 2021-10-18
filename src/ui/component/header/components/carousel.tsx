@@ -24,7 +24,7 @@ const Carousel = () => {
       speed: 200,
       slidesToShow: isMobile ? 1 : isDesktop ? 3 : 2,
       slidesToScroll: isMobile ? 1 : isDesktop ? 3 : 2,
-      arrows: !isMobile,
+      arrows: true,
     });
   }, [isMobile, isDesktop]);
 

@@ -30,7 +30,11 @@ const MaisContaudo = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <img loading="lazy" src="/ticktok.png" alt="ticktok dr. ícaro samel" />
+          <img
+            loading="lazy"
+            src="/ticktok.png"
+            alt="ticktok dr. ícaro samel"
+          />
         </a>
         <a
           href="https://www.youtube.com/channel/UCWsp-p8Z33mjBAYqjXDoxZA"
@@ -48,7 +52,11 @@ const MaisContaudo = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <img loading="lazy" src="/podcast.png" alt="podcast dr. ícaro samel" />
+          <img
+            loading="lazy"
+            src="/podcast.png"
+            alt="podcast dr. ícaro samel"
+          />
         </a>
       </BoxImage>
     </Box>
@@ -74,13 +82,14 @@ const BoxImage = styled("figure")`
   width: 100%;
   justify-content: center;
   img {
-    margin: ${({ theme }) => theme.spacing(0, 2)};
+    padding: ${({ theme }) => theme.spacing(0, 2)};
+    width: 120%;
   }
   ${({ theme }) => theme.breakpoints.down("xs")} {
     flex-wrap: wrap;
     align-items: center;
     img {
-      margin: ${({ theme }) => theme.spacing(2)};
+      padding: ${({ theme }) => theme.spacing(2)};
     }
   }
 `;

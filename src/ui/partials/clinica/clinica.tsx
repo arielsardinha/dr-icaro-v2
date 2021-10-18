@@ -11,7 +11,7 @@ const Clinica = () => (
   <>
     <Section id="clinica">
       <Logo src="/clinica/Logo-dream-day.png" alt="dream day" />
-      <h2>você merece o melhor!</h2>
+      <h2 style={{ textAlign: "center" }}>você merece o melhor!</h2>
       {/* <Carousel carousel={"principal"} /> */}
       <Container>
         <Carousel />
