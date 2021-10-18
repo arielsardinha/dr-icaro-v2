@@ -48,7 +48,7 @@ export const DrIcaro = () => (
           acompanhamento dos primeiros dias em Homecare, para quem mora em
           Palmas, e no Hotel para quem vier operar de outra cidade.
         </p>
-        <p>Dream Sculptors</p>
+        <p>Dream Sculptor</p>
         <BoxImages>
           <a
             href="http://www2.cirurgiaplastica.org.br/"

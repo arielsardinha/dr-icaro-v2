@@ -50,13 +50,17 @@ export const BoxTextoIcaro = styled("div")`
 `;
 
 export const BoxImages = styled("figure")`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   align-items: center;
   width: 100%;
   margin: 0;
   padding: ${({ theme }) => theme.spacing(10, 0)};
+  a {
+    display: flex;
+    justify-content: center;
+  }
   img {
     margin: ${({ theme }) => theme.spacing(2)};
     &:first-of-type {
@@ -65,6 +69,9 @@ export const BoxImages = styled("figure")`
     &:last-child {
       margin-right: 0;
     }
+  }
+  ${({ theme }) => theme.breakpoints.down("sm")} {
+    grid-template-columns: repeat(2, 1fr);
   }
 `;
 

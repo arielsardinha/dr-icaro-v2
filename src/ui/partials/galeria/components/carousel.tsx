@@ -31,46 +31,46 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <BoxImg>
-        <Image src="/galeria/01.png" alt="" />
+        <Image src="/galeria/01.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/02.jpg" alt="" />
+        <Image src="/galeria/02.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/03.jpg" alt="" />
+        <Image src="/galeria/03.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/04.jpg" alt="" />
+        <Image src="/galeria/04.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/05.jpg" alt="" />
+        <Image src="/galeria/05.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/06.jpg" alt="" />
+        <Image src="/galeria/06.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/07.jpg" alt="" />
+        <Image src="/galeria/07.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/08.jpg" alt="" />
+        <Image src="/galeria/08.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/09.jpg" alt="" />
+        <Image src="/galeria/09.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/10.jpg" alt="" />
+        <Image src="/galeria/10.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/11.jpg" alt="" />
+        <Image src="/galeria/11.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/12.jpg" alt="" />
+        <Image src="/galeria/12.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/13.jpg" alt="" />
+        <Image src="/galeria/13.png" alt="" loading="lazy" />
       </BoxImg>
       <BoxImg>
-        <Image src="/galeria/14.jpg" alt="" />
+        <Image src="/galeria/14.png" alt="" loading="lazy" />
       </BoxImg>
     </Slider>
   );

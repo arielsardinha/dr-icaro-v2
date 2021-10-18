@@ -43,7 +43,7 @@ const HeaderDesktop = () => {
           <NextLink href="/contato">
             <LinkText>contato</LinkText>
           </NextLink>
-          <NextLink href="/blog-icaro">
+          <NextLink href="/blog">
             <LinkText>blog</LinkText>
           </NextLink>
           <BoxIcons>
@@ -182,7 +182,7 @@ const HeaderMobile = () => {
                   contato
                 </LinkText>
               </NextLink>
-              <NextLink href="/blog-icaro">
+              <NextLink href="/blog">
                 <LinkText
                   style={{
                     marginBottom: "20px",

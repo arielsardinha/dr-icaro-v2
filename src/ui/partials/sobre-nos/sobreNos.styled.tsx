@@ -74,7 +74,11 @@ export const BoxImages = styled("figure")`
 `;
 
 export const BoxTexts = styled("div")`
-  max-width: 700px;
+  max-width: 550px;
+  p,
+  h1 {
+    font-family: "giveny", serif;
+  }
 `;
 
 export const ConhecaDrIcaro = styled("div")`

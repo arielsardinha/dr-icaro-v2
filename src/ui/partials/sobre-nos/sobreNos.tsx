@@ -15,7 +15,7 @@ const SobreNos = ({ sobreNos }) => {
             <source src="/video/backVideo.mp4" type="video/mp4" />
           </video>
 
-          <NextLink href="/dr-icaro">
+          <NextLink href="/dr-icaro-samuel">
             <a className="boxIcaro">
               <UserInformation
                 name={"Dr. Ícaro Samuel"}

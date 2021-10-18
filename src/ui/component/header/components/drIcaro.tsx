@@ -60,9 +60,15 @@ const DrIcaro = () => (
           target="_blank"
           rel="noreferrer"
         >
-          <img src="/icons/total-define.png" alt="total define" loading="lazy" />
+          <img
+            src="/icons/total-define.png"
+            alt="total define"
+            loading="lazy"
+          />
         </a>
-        <img src="/icons/rr.png" alt="r24r" loading="lazy" />
+        <a>
+          <img src="/icons/rr.png" alt="r24r" loading="lazy" />
+        </a>
       </BoxImages>
     </BoxTextoIcaro>
   </Box>

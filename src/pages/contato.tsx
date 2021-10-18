@@ -5,7 +5,7 @@ import Contato from "@partials/contato/contato";
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      title: "contato",
+      title: "Contato",
     },
   };
 };

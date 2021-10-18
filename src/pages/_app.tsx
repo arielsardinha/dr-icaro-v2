@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Cirurgia Plástica em Palmas - TO</title>
+        <title>{pageProps.title} | Dr. Ícaro Samuel</title>
         <meta name="theme-color" content="#1a1a1a" />
       </Head>
       {/* Global site tag (gtag.js) - Google Ads: 752657861 */}

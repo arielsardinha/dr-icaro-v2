@@ -19,11 +19,11 @@ const Procedimentos = () => {
             overflow: "hidden",
           }}
         >
-          <NextLink href="/protese-de-silicone">
+          <NextLink href="/protese-de-silicone/R24R">
             <Procedimento sx={{ mt: 5.5 }}>prótese de silicone</Procedimento>
           </NextLink>
 
-          <NextLink href="/lad-feminina">
+          <NextLink href="/lipo-hd-cirurgia-lad-4d">
             <Procedimento>lipo lad (lipo HD)</Procedimento>
           </NextLink>
 
@@ -62,7 +62,7 @@ export const SobreNos = () => {
           overflow: "hidden",
         }}
       >
-        <NextLink href="/dr-icaro">
+        <NextLink href="/dr-icaro-samuel">
           <Procedimento sx={{ mt: 5.5 }}>Dr. Ícaro Samuel</Procedimento>
         </NextLink>
 

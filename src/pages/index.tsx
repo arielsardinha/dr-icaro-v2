@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      title: "Home",
+      title: "Cirurgia Plástica em Palmas - TO",
     },
   };
 };
