@@ -16,7 +16,6 @@ export const BoxData = styled("div")`
   display: flex;
   flex-direction: column;
   width: 27%;
-  padding: ${({ theme }) => theme.spacing(1)};
   span {
     white-space: nowrap;
     text-align: left;
@@ -54,7 +53,7 @@ export const BoxSecFrame = styled("div")`
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: ${({ theme }) => theme.spacing(10)};
+  margin: ${({ theme }) => theme.spacing(10, 0, 5, 0)};
   div:first-of-type {
     span {
       text-align: right;

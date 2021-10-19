@@ -23,7 +23,6 @@ const Contato = () => (
           <span>DOMINGO FECHADO </span>
         </BoxData>
       </BoxSecFrame>
-      <hr />
       <Button
         sx={{ borderRadius: "30px" }}
         size={"large"}

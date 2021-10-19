@@ -12,7 +12,9 @@ const MaisContaudo = () => (
         maxWidth: "620px",
       }}
     >
-      <Text>Quer mais conteúdo sobre Cirurgia Plástica ?</Text>
+      <Text>
+        Quer mais conteúdo sobre Cirurgia <span>Plástica ?</span>
+      </Text>
       <BoxImage>
         <a
           href="https://www.instagram.com/dricarosamuel/?hl=pt-br"
@@ -75,6 +77,9 @@ const Text = styled("h2")`
   letter-spacing: 1px;
   font-size: 1.5em;
   color: ${({ theme }) => theme.palette.text.primary};
+  span {
+    white-space: nowrap;
+  }
 `;
 
 const BoxImage = styled("figure")`
