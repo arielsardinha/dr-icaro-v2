@@ -12,7 +12,12 @@ const Header = () => {
     <BoxHeader>
       <HeaderInit />
       <Container>
-        <Logo data-aos="fade-up" src={"logo.png"} alt={"icaro samuel"} />
+        <Logo
+          data-aos="fade-up"
+          src={"logo.png"}
+          alt={"icaro samuel"}
+          title="icaro samuel"
+        />
         <Box data-aos="fade-up" sx={{ mt: 20 }}>
           <Title>Dream Sculptor</Title>
           <p>A arte de esculpir seu sonho</p>

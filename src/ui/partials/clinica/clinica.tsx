@@ -10,7 +10,11 @@ import Carousel, { CarouselSegundo } from "./components/carouselPrincipal";
 const Clinica = () => (
   <>
     <Section id="clinica">
-      <Logo src="/clinica/Logo-dream-day.png" alt="dream day" />
+      <Logo
+        src="/clinica/Logo-dream-day.png"
+        alt="dream day"
+        title="dream day"
+      />
       <h2 style={{ textAlign: "center" }}>você merece o melhor!</h2>
       {/* <Carousel carousel={"principal"} /> */}
       <Container>
