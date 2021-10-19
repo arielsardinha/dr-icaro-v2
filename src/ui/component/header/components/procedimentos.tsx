@@ -9,29 +9,29 @@ const Procedmentos = () => (
     <BoxImgs>
       <BoxImg>
         <img
-          src={"protese-de-silicone.png"}
+          src={"/protese-de-silicone.png"}
           alt={"protese de silicone"}
           data-aos="fade-left"
           loading="lazy"
         />
-        <NextLink href="/protese-de-silicone">
+        <NextLink href="/protese-de-silicone/R24R">
           <a>prótese de silicone</a>
         </NextLink>
       </BoxImg>
       <BoxImg>
         <img
-          src={"lipo-hd-feminina.png"}
+          src={"/lipo-hd-feminina.png"}
           alt={"lipo hd feminina"}
           data-aos="fade-up"
           loading="lazy"
         />
-        <NextLink href="/lad-feminina">
+        <NextLink href="/lipo-hd-cirurgia-lad-4d">
           <a>lipo hd feminina</a>
         </NextLink>
       </BoxImg>
       <BoxImg>
         <img
-          src={"abdominoplastia.png"}
+          src={"/abdominoplastia.png"}
           alt={"abdominoplastia"}
           data-aos="fade-right"
           loading="lazy"
@@ -42,7 +42,7 @@ const Procedmentos = () => (
       </BoxImg>
       <BoxImg>
         <img
-          src={"mastopexia.png"}
+          src={"/mastopexia.png"}
           alt={"mastopexia"}
           data-aos="fade-left"
           loading="lazy"
@@ -53,7 +53,7 @@ const Procedmentos = () => (
       </BoxImg>
       <BoxImg>
         <img
-          src={"ninfoplastia.png"}
+          src={"/ninfoplastia.png"}
           alt={"ninfoplastia"}
           data-aos="fade-up"
           loading="lazy"
@@ -64,12 +64,12 @@ const Procedmentos = () => (
       </BoxImg>
       <BoxImg>
         <img
-          src={"lipo-hd-masculina.png"}
+          src={"/lipo-hd-masculina.png"}
           alt={"lipo hd masculina"}
           data-aos="fade-right"
           loading="lazy"
         />
-        <NextLink href="/lad-feminina">
+        <NextLink href="/lipo-hd-cirurgia-lad-4d">
           <a>lipo hd masculina</a>
         </NextLink>
       </BoxImg>
