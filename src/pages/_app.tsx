@@ -38,17 +38,15 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>{pageProps.title} | Dr. Ícaro Samuel</title>
         <meta name="theme-color" content="#1a1a1a" />
-        <meta name="description" content="dr ícaro samuel"></meta>
-        <meta name="description" content="cirurgia plástica"></meta>
-        <meta name="description" content="Membro da SBCP"></meta>
-        <meta name="description" content="cirurgia plástica"></meta>
-        <meta name="description" content="Lipo HD Total Definer"></meta>
-        <meta name="description" content="protese de silicone"></meta>
-        <meta name="description" content="abdominoplastia"></meta>
-        <meta name="description" content="mamoplastia"></meta>
-        <meta name="description" content="mastopexia"></meta>
-        <meta name="description" content="ninfoplastia"></meta>
-        <meta name="description" content="r24r"></meta>
+        <meta name="author" content="dr ícaro samuel" />
+        <meta
+          name="keywords"
+          content="cirurgia plástica, dr ícaro samuel, Membro da SBCP, Lipo, Lipo HD Total Definer, protese de silicone, abdominoplastia, mamoplastia, mastopexia,ninfoplastia, r24r"
+        />
+        <meta
+          name="description"
+          content="Através da cirurgia plástica busca encontrar harmonia entre o corpo e a mente, valorizando a mudança no estilo de vida, resultando na melhor performance das pessoas e impactando-as."
+        ></meta>
       </Head>
       {/* Global site tag (gtag.js) - Google Ads: 752657861 */}
       <Script
