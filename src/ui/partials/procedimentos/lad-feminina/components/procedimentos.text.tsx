@@ -14,7 +14,7 @@ const ProcedimentosDesktop = ({ text }) => {
   return (
     <>
       <BoxTextSelect isSelect={text === "lipoaspiração"}>
-        <h1>Lipoaspiração</h1>
+        <h3>Lipoaspiração</h3>
         <p>
           A <span>lipoaspiração</span> comum é hoje um dos procedimentos mais
           realizados no Brasil e no mundo. O procedimento remove depósitos de
@@ -31,7 +31,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "o que é a lipo lad"}>
-        <h1>O que é a lipo lad</h1>
+        <h3>O que é a lipo lad</h3>
         <p>
           A <span>lipoaspiração de alta definição (Lipo LAD ou Lipo HD)</span>
           consiste em uma técnica inovadora, já utilizada na Colômbia, Estados
@@ -73,7 +73,7 @@ const ProcedimentosDesktop = ({ text }) => {
       </BoxTextSelect>
 
       <BoxTextSelect isSelect={text === "benefícios"}>
-        <h1>Benefícios</h1>
+        <h3>Benefícios</h3>
         <p>
           A <span>LipoHD</span>, além de melhores resultados estéticos que as
           técnicas convencionais, reduziu os riscos pós-operatórios e melhorou o
@@ -84,7 +84,7 @@ const ProcedimentosDesktop = ({ text }) => {
       </BoxTextSelect>
 
       <BoxTextSelect isSelect={text === "indicação"}>
-        <h1>Indicação</h1>
+        <h3>Indicação</h3>
         <p>
           Quanto às indicações, a Lipoaspiração de Alta Definição é para uma
           pessoa que sempre sonhou em ter um corpo atlético, e tem lutado por
@@ -108,7 +108,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "procedimento"}>
-        <h1>Procedimento</h1>
+        <h3>Procedimento</h3>
         <p>
           O procedimento consiste em associar equipamentos modernos que
           trabalham as camadas de gordura corporal por meio de emissões de ondas
@@ -124,7 +124,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "pré e pós operatório"}>
-        <h1>Pré e pós operatório</h1>
+        <h3>Pré e pós operatório</h3>
         <p>
           O <span>pré-operatório</span> da Lipo LAD consiste em uma avaliação,
           onde verificaremos: sua saúde,estrutura corpórea e o procedimento que
@@ -159,7 +159,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "lipoaspiração")
     return (
       <BoxTextSelect>
-        <h1>Lipoaspiração</h1>
+        <h3>Lipoaspiração</h3>
         <p>
           A <span>lipoaspiração</span> comum é hoje um dos procedimentos mais
           realizados no Brasil e no mundo. O procedimento remove depósitos de
@@ -179,7 +179,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "o que é a lipo lad")
     return (
       <BoxTextSelect>
-        <h1>O que é a lipo lad</h1>
+        <h3>O que é a lipo lad</h3>
         <p>
           A <span>lipoaspiração de alta definição (Lipo LAD ou Lipo HD)</span>
           consiste em uma técnica inovadora, já utilizada na Colômbia, Estados
@@ -223,7 +223,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "benefícios")
     return (
       <BoxTextSelect>
-        <h1>Benefícios</h1>
+        <h3>Benefícios</h3>
         <p>
           A <span>LipoHD</span>, além de melhores resultados estéticos que as
           técnicas convencionais, reduziu os riscos pós-operatórios e melhorou o
@@ -236,7 +236,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "indicação")
     return (
       <BoxTextSelect>
-        <h1>Indicação</h1>
+        <h3>Indicação</h3>
         <p>
           Quanto às indicações, a Lipoaspiração de Alta Definição é para uma
           pessoa que sempre sonhou em ter um corpo atlético, e tem lutado por
@@ -263,7 +263,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "procedimento")
     return (
       <BoxTextSelect>
-        <h1>Procedimento</h1>
+        <h3>Procedimento</h3>
         <p>
           O procedimento consiste em associar equipamentos modernos que
           trabalham as camadas de gordura corporal por meio de emissões de ondas
@@ -282,7 +282,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "pré e pós operatório")
     return (
       <BoxTextSelect>
-        <h1>Pré e pós operatório</h1>
+        <h3>Pré e pós operatório</h3>
         <p>
           O <span>pré-operatório</span> da Lipo LAD consiste em uma avaliação,
           onde verificaremos: sua saúde,estrutura corpórea e o procedimento que

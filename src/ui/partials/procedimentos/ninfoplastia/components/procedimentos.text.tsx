@@ -14,7 +14,7 @@ const ProcedimentosDesktop = ({ text }) => {
   return (
     <>
       <BoxTextSelect isSelect={text === "Ninfoplastia"}>
-        <h1>Ninfoplastia</h1>
+        <h3>Ninfoplastia</h3>
         <p>
           A cada dia que passa mais pessoas buscam elevar sua autoestima,
           corrigindo defeitos que as incomodam esteticamente. Isso tudo tem
@@ -27,7 +27,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Indicações"}>
-        <h1>Indicações</h1>
+        <h3>Indicações</h3>
         <p>
           Na maioria dos casos, as mulheres que optam pela cirurgia plástica são
           devido a estética, que causa incômodo e afeta a autoestima,
@@ -45,7 +45,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Contraindicações"}>
-        <h1>Contraindicações</h1>
+        <h3>Contraindicações</h3>
         <p>
           A <span>ninfoplastia</span> possui as mesmas contraindicações de
           outras cirurgias: pacientes com doenças crônicas, como diabetes,
@@ -59,7 +59,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Pré-operatório"}>
-        <h1>Pré-operatório</h1>
+        <h3>Pré-operatório</h3>
         <p>
           A <span>ninfoplastia</span> exige os mesmos cuidados preparatórios de
           outras cirurgias: estar acompanhado no dia da realização do
@@ -73,7 +73,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Pós-operatório"}>
-        <h1>Pós-operatório</h1>
+        <h3>Pós-operatório</h3>
         <p>
           Como qualquer outra cirurgia é necessário o repouso na primeira
           semana. Pode acontecer da região ficar arroxeada. As mulheres que
@@ -93,7 +93,7 @@ const ProcedimentosDesktop = ({ text }) => {
       </BoxTextSelect>
 
       <BoxTextSelect isSelect={text === "Como é feita"}>
-        <h1>Como é feita</h1>
+        <h3>Como é feita</h3>
         <p>
           A <span>ninfoplastia</span> é realizada com anestesia, podendo ser
           raque ou peridural com sedação simples, permitindo que a paciente
@@ -123,7 +123,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Ninfoplastia")
     return (
       <BoxTextSelect>
-        <h1>Ninfoplastia</h1>
+        <h3>Ninfoplastia</h3>
         <p>
           A cada dia que passa mais pessoas buscam elevar sua autoestima,
           corrigindo defeitos que as incomodam esteticamente. Isso tudo tem
@@ -139,7 +139,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Indicações")
     return (
       <BoxTextSelect>
-        <h1>Indicações</h1>
+        <h3>Indicações</h3>
         <p>
           Na maioria dos casos, as mulheres que optam pela cirurgia plástica são
           devido a estética, que causa incômodo e afeta a autoestima,
@@ -159,8 +159,8 @@ const ProcedimentosMobile = ({ text }) => {
     );
   if (text === "Contraindicações")
     return (
-      <BoxTextSelect >
-        <h1>Contraindicações</h1>
+      <BoxTextSelect>
+        <h3>Contraindicações</h3>
         <p>
           A <span>ninfoplastia</span> possui as mesmas contraindicações de
           outras cirurgias: pacientes com doenças crônicas, como diabetes,
@@ -177,7 +177,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Pré-operatório")
     return (
       <BoxTextSelect>
-        <h1>Pré-operatório</h1>
+        <h3>Pré-operatório</h3>
         <p>
           A <span>ninfoplastia</span> exige os mesmos cuidados preparatórios de
           outras cirurgias: estar acompanhado no dia da realização do
@@ -194,7 +194,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Pós-operatório")
     return (
       <BoxTextSelect>
-        <h1>Pós-operatório</h1>
+        <h3>Pós-operatório</h3>
         <p>
           Como qualquer outra cirurgia é necessário o repouso na primeira
           semana. Pode acontecer da região ficar arroxeada. As mulheres que
@@ -216,7 +216,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Como é feita")
     return (
       <BoxTextSelect>
-        <h1>Como é feita</h1>
+        <h3>Como é feita</h3>
         <p>
           A <span>ninfoplastia</span> é realizada com anestesia, podendo ser
           raque ou peridural com sedação simples, permitindo que a paciente

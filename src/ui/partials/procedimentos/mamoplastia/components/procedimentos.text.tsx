@@ -14,7 +14,7 @@ const ProcedimentosDesktop = ({ text }) => {
   return (
     <>
       <BoxTextSelect isSelect={text === "mamoplastia"}>
-        <h1>Mamoplastia</h1>
+        <h3>Mamoplastia</h3>
         <p>
           Muitas mulheres se sentem inseguras por ter seios pequenos ou
           “murchos”, e isso causa um desconforto muito grande. Esta parte do
@@ -30,7 +30,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "O que é aMamoplastia de Aumento"}>
-        <h1>O que é a Mamoplastia de Aumento</h1>
+        <h3>O que é a Mamoplastia de Aumento</h3>
         <p>
           É a cirurgia plástica de aumento das mamas. Consiste na utilização de
           próteses de silicone para dar ou restaurar o volume mamário perdido e
@@ -40,7 +40,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Indicação"}>
-        <h1>Indicação</h1>
+        <h3>Indicação</h3>
         <p>
           A Mamoplastia de aumentoé indicada para aquelas mulheres que querem
           aumentar, preencher ou alterar a forma das mamas. Podendo ser uma
@@ -60,7 +60,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Preparo Necessário"}>
-        <h1>Preparo Necessário</h1>
+        <h3>Preparo Necessário</h3>
         <p>
           Antes do procedimento são fornecidas as pacientes todas as informações
           sobre a cirurgia, apresentando os resultados e possíveis complicações
@@ -86,7 +86,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </ul>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "procedimento"}>
-        <h1>Procedimento</h1>
+        <h3>Procedimento</h3>
         <p>
           O procedimento de
           <span>Prótese de Mamade Recuperação Rápida de 24 horas </span>
@@ -106,7 +106,7 @@ const ProcedimentosDesktop = ({ text }) => {
       </BoxTextSelect>
 
       <BoxTextSelect isSelect={text === "Pós-Operatório"}>
-        <h1>Pós-Operatório</h1>
+        <h3>Pós-Operatório</h3>
         <p>
           A reabilitação dessa paciente, inicia ainda no centro cirúrgico, logo
           após a finalização do mesmo, com exercícios que são realizados pela
@@ -136,7 +136,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "mamoplastia")
     return (
       <BoxTextSelect>
-        <h1>Mamoplastia</h1>
+        <h3>Mamoplastia</h3>
         <p>
           Muitas mulheres se sentem inseguras por ter seios pequenos ou
           “murchos”, e isso causa um desconforto muito grande. Esta parte do
@@ -155,7 +155,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "O que é aMamoplastia de Aumento")
     return (
       <BoxTextSelect>
-        <h1>O que é a Mamoplastia de Aumento</h1>
+        <h3>O que é a Mamoplastia de Aumento</h3>
         <p>
           É a cirurgia plástica de aumento das mamas. Consiste na utilização de
           próteses de silicone para dar ou restaurar o volume mamário perdido e
@@ -168,7 +168,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Indicação")
     return (
       <BoxTextSelect>
-        <h1>Indicação</h1>
+        <h3>Indicação</h3>
         <p>
           A Mamoplastia de aumentoé indicada para aquelas mulheres que querem
           aumentar, preencher ou alterar a forma das mamas. Podendo ser uma
@@ -191,7 +191,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Preparo Necessário")
     return (
       <BoxTextSelect>
-        <h1>Preparo Necessário</h1>
+        <h3>Preparo Necessário</h3>
         <p>
           Antes do procedimento são fornecidas as pacientes todas as informações
           sobre a cirurgia, apresentando os resultados e possíveis complicações
@@ -220,7 +220,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "procedimento")
     return (
       <BoxTextSelect>
-        <h1>Procedimento</h1>
+        <h3>Procedimento</h3>
         <p>
           O procedimento de
           <span>Prótese de Mamade Recuperação Rápida de 24 horas </span>
@@ -242,7 +242,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Pós-Operatório")
     return (
       <BoxTextSelect>
-        <h1>Pós-Operatório</h1>
+        <h3>Pós-Operatório</h3>
         <p>
           A reabilitação dessa paciente, inicia ainda no centro cirúrgico, logo
           após a finalização do mesmo, com exercícios que são realizados pela

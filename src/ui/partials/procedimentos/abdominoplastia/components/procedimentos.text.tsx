@@ -14,7 +14,7 @@ const ProcedimentosDesktop = ({ text }) => {
   return (
     <>
       <BoxTextSelect isSelect={text === "O que é abdominoplastia"}>
-        <h1>O que é abdominoplastia</h1>
+        <h3>O que é abdominoplastia</h3>
         <p>
           <span>A abdominoplastia</span> é uma cirurgia plástica usada para
           retirar o excesso de tecido (pele e gordura) acumulado abaixo do
@@ -37,7 +37,7 @@ const ProcedimentosDesktop = ({ text }) => {
       </BoxTextSelect>
 
       <BoxTextSelect isSelect={text === "Como funciona"}>
-        <h1>Como funciona</h1>
+        <h3>Como funciona</h3>
         <p>
           O <span>procedimento de abdominoplastia</span> pode ser feito
           isoladamente, mas geralmente é associado à lipoaspiração, para obter
@@ -95,7 +95,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </ul>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Pré-operatório"}>
-        <h1>Pré-operatório</h1>
+        <h3>Pré-operatório</h3>
         <p>
           Nos dias anteriores à cirurgia devem ser realizados todos os exames
           laboratoriais prescritos pelo médico, deve ser suspenso o uso de
@@ -112,7 +112,7 @@ const ProcedimentosDesktop = ({ text }) => {
       </BoxTextSelect>
 
       <BoxTextSelect isSelect={text === "Recuperação"}>
-        <h1>Recuperação</h1>
+        <h3>Recuperação</h3>
         <p>
           A <span>recuperação da abdominoplastia</span> demora em média 2 meses,
           e requer do paciente alguns cuidados, principalmente com a postura,
@@ -134,7 +134,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "O que é abdominoplastia")
     return (
       <BoxTextSelect>
-        <h1>O que é abdominoplastia</h1>
+        <h3>O que é abdominoplastia</h3>
         <p>
           <span>A abdominoplastia</span> é uma cirurgia plástica usada para
           retirar o excesso de tecido (pele e gordura) acumulado abaixo do
@@ -159,7 +159,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Como funciona")
     return (
       <BoxTextSelect>
-        <h1>Como funciona</h1>
+        <h3>Como funciona</h3>
         <p>
           O <span>procedimento de abdominoplastia</span> pode ser feito
           isoladamente, mas geralmente é associado à lipoaspiração, para obter
@@ -220,7 +220,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Pré-operatório")
     return (
       <BoxTextSelect>
-        <h1>Pré-operatório</h1>
+        <h3>Pré-operatório</h3>
         <p>
           Nos dias anteriores à cirurgia devem ser realizados todos os exames
           laboratoriais prescritos pelo médico, deve ser suspenso o uso de
@@ -240,7 +240,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Recuperação")
     return (
       <BoxTextSelect>
-        <h1>Recuperação</h1>
+        <h3>Recuperação</h3>
         <p>
           A <span>recuperação da abdominoplastia</span> demora em média 2 meses,
           e requer do paciente alguns cuidados, principalmente com a postura,

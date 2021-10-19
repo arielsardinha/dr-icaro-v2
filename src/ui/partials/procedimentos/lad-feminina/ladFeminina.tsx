@@ -22,7 +22,7 @@ const LadFeminina = () => (
 
 export default LadFeminina;
 
-const SectionImg = styled("div")`
+const SectionImg = styled("section")`
   background-image: url("/procedimentos/lad-feminina.jpg");
   background-position: center;
   background-size: cover;

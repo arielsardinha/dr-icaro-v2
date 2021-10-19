@@ -38,6 +38,17 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>{pageProps.title} | Dr. Ícaro Samuel</title>
         <meta name="theme-color" content="#1a1a1a" />
+        <meta name="description" content="dr ícaro samuel"></meta>
+        <meta name="description" content="cirurgia plástica"></meta>
+        <meta name="description" content="Membro da SBCP"></meta>
+        <meta name="description" content="cirurgia plástica"></meta>
+        <meta name="description" content="Lipo HD Total Definer"></meta>
+        <meta name="description" content="protese de silicone"></meta>
+        <meta name="description" content="abdominoplastia"></meta>
+        <meta name="description" content="mamoplastia"></meta>
+        <meta name="description" content="mastopexia"></meta>
+        <meta name="description" content="ninfoplastia"></meta>
+        <meta name="description" content="r24r"></meta>
       </Head>
       {/* Global site tag (gtag.js) - Google Ads: 752657861 */}
       <Script

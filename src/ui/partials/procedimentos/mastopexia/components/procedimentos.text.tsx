@@ -14,7 +14,7 @@ const ProcedimentosDesktop = ({ text }) => {
   return (
     <>
       <BoxTextSelect isSelect={text === "Mastopexia"}>
-        <h1>Mastopexia</h1>
+        <h3>Mastopexia</h3>
         <p>
           Muitas mulheres se sentem inseguras por terem seios grandes, caídos e
           com flacidez. Esta parte do corpo representa para a mulher grande
@@ -24,7 +24,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "O que é aMastopexia"}>
-        <h1>O que é aMastopexia</h1>
+        <h3>O que é aMastopexia</h3>
         <p>
           A queda das mamas por perda de flacidez pode surgir devido ao
           envelhecimento, à gravidez e amamentação, oscilações de peso, ação da
@@ -61,7 +61,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </ul>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Indicação"}>
-        <h1>Indicação</h1>
+        <h3>Indicação</h3>
         <p>
           <span>Mastopexia com prótese de silicone:</span>
         </p>
@@ -82,7 +82,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Preparo Necessário"}>
-        <h1>Preparo Necessário</h1>
+        <h3>Preparo Necessário</h3>
         <p>
           No <a href="">Dream Day</a> – dia da consulta com Dr. Ícaro Samuel - é
           realizadoa Bioimpedância da paciente.O exame proporciona uma abordagem
@@ -114,7 +114,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </ul>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Procedimentos"}>
-        <h1>Procedimentos</h1>
+        <h3>Procedimentos</h3>
         <p>
           <span>Mastopexiacom Prótese de Silicone:</span>
         </p>
@@ -159,7 +159,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Reabilitação"}>
-        <h1>Reabilitação</h1>
+        <h3>Reabilitação</h3>
         <p>
           Os cuidados do pós-operatório são fundamentais na busca do melhor
           resultado. Não fazer esforços físicos nos primeiros dias é essencial
@@ -183,7 +183,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Mastopexia")
     return (
       <BoxTextSelect>
-        <h1>Mastopexia</h1>
+        <h3>Mastopexia</h3>
         <p>
           Muitas mulheres se sentem inseguras por terem seios grandes, caídos e
           com flacidez. Esta parte do corpo representa para a mulher grande
@@ -196,7 +196,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "O que é aMastopexia")
     return (
       <BoxTextSelect>
-        <h1>O que é aMastopexia</h1>
+        <h3>O que é aMastopexia</h3>
         <p>
           A queda das mamas por perda de flacidez pode surgir devido ao
           envelhecimento, à gravidez e amamentação, oscilações de peso, ação da
@@ -236,7 +236,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Indicação")
     return (
       <BoxTextSelect>
-        <h1>Indicação</h1>
+        <h3>Indicação</h3>
         <p>
           <span>Mastopexia com prótese de silicone:</span>
         </p>
@@ -260,7 +260,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Preparo Necessário")
     return (
       <BoxTextSelect>
-        <h1>Preparo Necessário</h1>
+        <h3>Preparo Necessário</h3>
         <p>
           No <a href="">Dream Day</a> – dia da consulta com Dr. Ícaro Samuel - é
           realizadoa Bioimpedância da paciente.O exame proporciona uma abordagem
@@ -295,7 +295,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Procedimentos")
     return (
       <BoxTextSelect>
-        <h1>Procedimentos</h1>
+        <h3>Procedimentos</h3>
         <p>
           <span>Mastopexiacom Prótese de Silicone:</span>
         </p>
@@ -343,7 +343,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Reabilitação")
     return (
       <BoxTextSelect>
-        <h1>Reabilitação</h1>
+        <h3>Reabilitação</h3>
         <p>
           Os cuidados do pós-operatório são fundamentais na busca do melhor
           resultado. Não fazer esforços físicos nos primeiros dias é essencial

@@ -22,7 +22,7 @@ const Mamoplastia = () => (
 
 export default Mamoplastia;
 
-const SectionImg = styled("div")`
+const SectionImg = styled("section")`
   background-image: url("/procedimentos/mamoplastia.png");
   background-position: center;
   background-size: cover;

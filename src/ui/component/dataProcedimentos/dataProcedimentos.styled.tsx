@@ -87,7 +87,7 @@ export const BoxTextSelect = styled("div", {
   p {
     ${({ theme, isSelect }) => handleSelect(theme, isSelect)}
   }
-  h1 {
+  h3 {
     font-size: 1em;
     text-align: left;
     ${({ theme, isSelect }) => handleSelect(theme, isSelect)}

@@ -22,7 +22,7 @@ const Abdominoplastia = () => (
 
 export default Abdominoplastia;
 
-const SectionImg = styled("div")`
+const SectionImg = styled("section")`
   background-image: url("/procedimentos/abdominoplastia.jpg");
   background-position: center;
   background-size: cover;

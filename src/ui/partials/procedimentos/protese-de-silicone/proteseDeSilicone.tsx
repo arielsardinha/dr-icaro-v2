@@ -22,7 +22,7 @@ const ProteseDeSilicone = () => (
 
 export default ProteseDeSilicone;
 
-const SectionImg = styled("div")`
+const SectionImg = styled("section")`
   background-image: url("/procedimentos/protese-de-mama.jpg");
   background-position: center;
   background-size: cover;
