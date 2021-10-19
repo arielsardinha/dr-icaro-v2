@@ -52,28 +52,28 @@ const HeaderDesktop = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/iconMenu/intagram.png" alt="instagram" />
+              <img src="/iconMenu/intagram.png" alt="instagram" title="instagram" />
             </a>
             <a
               href="https://www.tiktok.com/@dricarosamuel?lang=pt-BR"
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/iconMenu/tiktok.png" alt="ticktok" />
+              <img src="/iconMenu/tiktok.png" alt="ticktok" title="ticktok" />
             </a>
             <a
               href="https://www.facebook.com/dricarosamuel/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/iconMenu/facebook.png" alt="facebook" />
+              <img src="/iconMenu/facebook.png" alt="facebook" title="facebook" />
             </a>
             <a
               href="https://www.youtube.com/channel/UCWsp-p8Z33mjBAYqjXDoxZA"
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/iconMenu/youtube.png" alt="youtube" />
+              <img src="/iconMenu/youtube.png" alt="youtube" title="youtube" />
             </a>
           </BoxIcons>
         </NavBar>

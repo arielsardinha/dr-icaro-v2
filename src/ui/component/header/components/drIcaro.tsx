@@ -40,8 +40,9 @@ const DrIcaro = () => (
         >
           <img
             src="/icons/cirurgia-plastica.png"
-            alt="cirurgia-plastica"
+            alt="cirurgia plastica"
             loading="lazy"
+            title="cirurgia plastica"
           />
         </a>
         <a
@@ -53,6 +54,7 @@ const DrIcaro = () => (
             src="/icons/american-society.png"
             alt="american society"
             loading="lazy"
+            title="american society"
           />
         </a>
         <a
@@ -64,10 +66,11 @@ const DrIcaro = () => (
             src="/icons/total-define.png"
             alt="total define"
             loading="lazy"
+            title="total define"
           />
         </a>
         <a>
-          <img src="/icons/rr.png" alt="r24r" loading="lazy" />
+          <img src="/icons/rr.png" alt="R24R" loading="lazy" title="R24R" />
         </a>
       </BoxImages>
     </BoxTextoIcaro>
