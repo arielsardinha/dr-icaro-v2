@@ -55,14 +55,19 @@ export const ContainerDrIcaro = styled("section")`
 `;
 
 export const BoxImages = styled("figure")`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   align-items: center;
   width: 100%;
   margin: 0;
+  a {
+    display: flex;
+    justify-content: center;
+  }
   padding: ${({ theme }) => theme.spacing(10, 0)};
   img {
+    width: 75%;
     margin: ${({ theme }) => theme.spacing(2)};
     &:first-of-type {
       margin-left: 0;
@@ -70,6 +75,9 @@ export const BoxImages = styled("figure")`
     &:last-child {
       margin-right: 0;
     }
+  }
+  ${({ theme }) => theme.breakpoints.down("sm")} {
+    grid-template-columns: repeat(2, 1fr);
   }
 `;
 

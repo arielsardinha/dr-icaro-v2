@@ -45,8 +45,22 @@ a {
 }
 
 .slick-prev {
-  left: -20% !important;
+  left: 0px !important;
 }
 .slick-next {
-  right: -20% !important;
+  right: 0px !important;
+}
+
+@media (min-width: 1280px) {
+  .slick-prev,.slick-next {
+    left: -20px !important;
+  }
+  .slick-next {
+    right: -20px !important;
+  }
+}
+@media (max-width: 374px) {
+  .slick-arrow {
+   display: none !important;
+  }
 }

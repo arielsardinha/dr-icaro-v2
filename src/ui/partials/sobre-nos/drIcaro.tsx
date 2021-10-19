@@ -9,7 +9,7 @@ import Footer from "ui/component/footer/footer";
 
 export const DrIcaro = () => (
   <ContainerDrIcaro>
-    <video muted={true}  autoPlay loop className="bg_video">
+    <video muted={true} autoPlay loop className="bg_video">
       <source src="/video/backVideo.mp4" type="video/mp4" />
     </video>
     <ConhecaDrIcaro>
@@ -83,7 +83,9 @@ export const DrIcaro = () => (
               loading="lazy"
             />
           </a>
-          <img src="/icons/rr.png" alt="r24r" loading="lazy" />
+          <a>
+            <img src="/icons/rr.png" alt="r24r" loading="lazy" />
+          </a>
         </BoxImages>
       </BoxTexts>
     </Container>

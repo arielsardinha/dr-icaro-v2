@@ -54,7 +54,6 @@ export const BoxImages = styled("figure")`
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   margin: 0;
   padding: ${({ theme }) => theme.spacing(10, 0)};
   a {
@@ -62,6 +61,7 @@ export const BoxImages = styled("figure")`
     justify-content: center;
   }
   img {
+    width: 75%;
     margin: ${({ theme }) => theme.spacing(2)};
     &:first-of-type {
       margin-left: 0;
