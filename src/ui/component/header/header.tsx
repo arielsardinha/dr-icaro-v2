@@ -15,8 +15,8 @@ const Header = () => {
         <Logo
           data-aos="fade-up"
           src={"logo.png"}
-          alt={"icaro samuel"}
-          title="icaro samuel"
+          alt={"ícaro samuel"}
+          title="dr ícaro samuel cirurgia plástica"
         />
         <Box data-aos="fade-up" sx={{ mt: 20 }}>
           <Title>Dream Sculptor</Title>

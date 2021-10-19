@@ -7,6 +7,7 @@ const DrIcaro = () => (
       src={"dr-icaro.png"}
       alt={"Dr.Ícaro Samuel"}
       data-aos="fade-up"
+      title="Dr.Ícaro Samuel"
     />
     <BoxTextoIcaro data-aos="fade-up">
       <p>
