@@ -13,6 +13,21 @@ const ProcedimentosText = ({ text }) => {
 const ProcedimentosDesktop = ({ text }) => {
   return (
     <>
+      <BoxTextSelect isSelect={text === "Fast Track Recovery"}>
+        <h1>R24R - Fast Track Recovery</h1>
+        <p>
+          A reabilitação dessa paciente inicia ainda no centro cirúrgico, logo
+          após a finalização do mesmo, com exercícios que são realizados pela
+          equipe responsável pelo pós operatório imediato, e assim permitem que
+          a paciente retome sua atividade no dia seguinte, podendo inclusive
+          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
+          todas as recomendações especificas.
+        </p>
+        <p>
+          Sempre bom lembrar que a técnica, por ter uma reabilitação mais
+          rápida, exige que a paciente tenha hábitos de vida mais saudáveis.
+        </p>
+      </BoxTextSelect>
       <BoxTextSelect isSelect={text === "mamoplastia"}>
         <h2>Mamoplastia</h2>
         <p>
@@ -65,23 +80,23 @@ const ProcedimentosDesktop = ({ text }) => {
           Antes do procedimento são fornecidas as pacientes todas as informações
           sobre a cirurgia, apresentando os resultados e possíveis complicações
           e riscos. É analisada a melhor forma de colocar a
-          <span> prótese de silicone </span>, garantindo que tenha harmonia
+          <span> prótese de silicone </span>, para que a mesma tenha harmonia
           física com o corpo da mulher.
         </p>
         <p>
-          Depois das avaliações do Dr. Ícaro Samuel, a paciente deve realizar os
-          exames pré-operatórios de praxe: exame de sangue, eletrocardiograma e
+          Depois das avaliações do profissional, a paciente deve realizar os
+          exames pré-operatórios de praxe: exame de sangue, eletrocardiograma,
           radiografia de tórax. Uma detalhada análise da mama com
           ultrassonografia e mamografia já deverá ter sido feita.
         </p>
         <ul>
           <li>
-            o 8 horas antes do procedimento, é preciso fazer jejum absoluto de
+            8 horas antes do procedimento, é preciso fazer jejum absoluto de
             alimentos sólidos e líquidos.
           </li>
           <li>
-            o É necessário interromper o consumo de bebidas alcoólicas e fumo
-            para realizar a cirurgia.
+            É necessário interromper o consumo de bebidas alcoólicas e fumo para
+            realizar a cirurgia.
           </li>
         </ul>
       </BoxTextSelect>
@@ -103,30 +118,6 @@ const ProcedimentosDesktop = ({ text }) => {
           tempo previsto e continuar a seguir todas as orientações da equipe da
           Clínica Dr. Ícaro Samuel.
         </p>
-      </BoxTextSelect>
-
-      <BoxTextSelect isSelect={text === "Pós-Operatório"}>
-        <h2>Pós-Operatório</h2>
-        <p>
-          A reabilitação dessa paciente, inicia ainda no centro cirúrgico, logo
-          após a finalização do mesmo, com exercícios que são realizados pela
-          equipe responsável pelo pós-operatório imediato.Sempre bom lembrar que
-          a técnica, por ter uma reabilitação mais rápida, exige que a paciente
-          tenha hábitos de vida mais saudáveis.
-        </p>
-        <p>
-          Abaixo, segue algumas recomendações para uma recuperação saudável e
-          rápida:
-        </p>
-        <ul>
-          <li>
-            Para dar sustentação e imobilizar a regiãoé preciso usar um sutiã
-            especialque auxilia na cicatrização e posição das manas.
-          </li>
-          <li>evitar a exposição direta ao sol também por 30 dias.</li>
-          <li>retirar os pontos no período de 7 a 15 dias após a cirurgia;</li>
-          <li>permanecer com curativos por 30 a 60 dias;</li>
-        </ul>
       </BoxTextSelect>
     </>
   );
@@ -190,29 +181,29 @@ const ProcedimentosMobile = ({ text }) => {
     );
   if (text === "Preparo Necessário")
     return (
-      <BoxTextSelect>
+      <BoxTextSelect isSelect={text === "Preparo Necessário"}>
         <h2>Preparo Necessário</h2>
         <p>
           Antes do procedimento são fornecidas as pacientes todas as informações
           sobre a cirurgia, apresentando os resultados e possíveis complicações
           e riscos. É analisada a melhor forma de colocar a
-          <span> prótese de silicone </span>, garantindo que tenha harmonia
+          <span> prótese de silicone </span>, para que a mesma tenha harmonia
           física com o corpo da mulher.
         </p>
         <p>
-          Depois das avaliações do Dr. Ícaro Samuel, a paciente deve realizar os
-          exames pré-operatórios de praxe: exame de sangue, eletrocardiograma e
+          Depois das avaliações do profissional, a paciente deve realizar os
+          exames pré-operatórios de praxe: exame de sangue, eletrocardiograma,
           radiografia de tórax. Uma detalhada análise da mama com
           ultrassonografia e mamografia já deverá ter sido feita.
         </p>
         <ul>
           <li>
-            o 8 horas antes do procedimento, é preciso fazer jejum absoluto de
+            8 horas antes do procedimento, é preciso fazer jejum absoluto de
             alimentos sólidos e líquidos.
           </li>
           <li>
-            o É necessário interromper o consumo de bebidas alcoólicas e fumo
-            para realizar a cirurgia.
+            É necessário interromper o consumo de bebidas alcoólicas e fumo para
+            realizar a cirurgia.
           </li>
         </ul>
       </BoxTextSelect>
@@ -239,30 +230,22 @@ const ProcedimentosMobile = ({ text }) => {
         </p>
       </BoxTextSelect>
     );
-  if (text === "Pós-Operatório")
+  if (text === "Fast Track Recovery")
     return (
       <BoxTextSelect>
-        <h2>Pós-Operatório</h2>
+        <h1>R24R - Fast Track Recovery</h1>
         <p>
-          A reabilitação dessa paciente, inicia ainda no centro cirúrgico, logo
+          A reabilitação dessa paciente inicia ainda no centro cirúrgico, logo
           após a finalização do mesmo, com exercícios que são realizados pela
-          equipe responsável pelo pós-operatório imediato.Sempre bom lembrar que
-          a técnica, por ter uma reabilitação mais rápida, exige que a paciente
-          tenha hábitos de vida mais saudáveis.
+          equipe responsável pelo pós operatório imediato, e assim permitem que
+          a paciente retome sua atividade no dia seguinte, podendo inclusive
+          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
+          todas as recomendações especificas.
         </p>
         <p>
-          Abaixo, segue algumas recomendações para uma recuperação saudável e
-          rápida:
+          Sempre bom lembrar que a técnica, por ter uma reabilitação mais
+          rápida, exige que a paciente tenha hábitos de vida mais saudáveis.
         </p>
-        <ul>
-          <li>
-            Para dar sustentação e imobilizar a regiãoé preciso usar um sutiã
-            especialque auxilia na cicatrização e posição das manas.
-          </li>
-          <li>evitar a exposição direta ao sol também por 30 dias.</li>
-          <li>retirar os pontos no período de 7 a 15 dias após a cirurgia;</li>
-          <li>permanecer com curativos por 30 a 60 dias;</li>
-        </ul>
       </BoxTextSelect>
     );
 };

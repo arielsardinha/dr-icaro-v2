@@ -84,10 +84,12 @@ function handleSelect(theme: Theme, isSelect: boolean) {
 export const BoxTextSelect = styled("div", {
   shouldForwardProp: (prop) => prop !== "isSelect",
 })<{ isSelect?: boolean }>`
-  p {
+  p,
+  li {
     ${({ theme, isSelect }) => handleSelect(theme, isSelect)}
   }
-  h3 {
+  h2,
+  h1 {
     font-size: 1em;
     text-align: left;
     ${({ theme, isSelect }) => handleSelect(theme, isSelect)}
