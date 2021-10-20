@@ -121,7 +121,7 @@ const ProcedimentosDesktop = ({ text }) => {
         <p>
           Este procedimento é feito em mulheres que desejam remover a flacidez e
           adicionar volume nas mamas, a cirurgia é realizadacom a colocação de
-          <span>implantes de silicone nas mamas.</span> Para muitas ter seios
+          <span> implantes de silicone nas mamas. </span> Para muitas ter seios
           grandes está associado à sensualidade, e é isso que elas buscam.
         </p>
         <p>
@@ -302,7 +302,7 @@ const ProcedimentosMobile = ({ text }) => {
         <p>
           Este procedimento é feito em mulheres que desejam remover a flacidez e
           adicionar volume nas mamas, a cirurgia é realizadacom a colocação de
-          <span>implantes de silicone nas mamas.</span> Para muitas ter seios
+          <span> implantes de silicone nas mamas. </span> Para muitas ter seios
           grandes está associado à sensualidade, e é isso que elas buscam.
         </p>
         <p>

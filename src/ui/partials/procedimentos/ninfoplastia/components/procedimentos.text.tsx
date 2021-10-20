@@ -130,7 +130,7 @@ const ProcedimentosMobile = ({ text }) => {
           relação com a felicidade, qualidade de vida e o bem-estar. As
           cirurgias plásticas vêm proporcionando essas mudanças, além dos
           procedimentos mais conhecidos como as plásticas nos seios, nariz,
-          lipoaspiração, a<span>Ninfoplastia</span> vem sendo muito requisitada
+          lipoaspiração, a<span> Ninfoplastia </span> vem sendo muito requisitada
           pelas mulheres para fazer reduções ou alterações dos pequenos lábios
           vaginais.
         </p>

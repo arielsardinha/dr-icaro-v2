@@ -29,9 +29,9 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
         <p>
           No caso de pacientes que apresentam
-          <span>flacidez e excesso de pele</span>
-          associado a <span>gordura localizada no abdômen</span> pode fazer uma
-          lipoaspiração para retirar a gordura, e a <span>abdominoplastia</span>{" "}
+          <span> flacidez e excesso de pele </span>
+          associado a <span> gordura localizada no abdômen </span> pode fazer uma
+          lipoaspiração para retirar a gordura, e a <span>abdominoplastia </span>
           para corrigir a <span>flacidez e excesso de pele.</span>
         </p>
       </BoxTextSelect>
@@ -46,7 +46,7 @@ const ProcedimentosDesktop = ({ text }) => {
         <p>
           A técnica não deve ser considerada como tratamento de obesidade, ou
           para excluir dietas e exercícios físicos.
-          <span>A abdominoplastia</span> não é recomendada nos casos em que
+          <span> A abdominoplastia </span> não é recomendada nos casos em que
           sejam previstos gestações futuras.
         </p>
         <p>
@@ -149,9 +149,9 @@ const ProcedimentosMobile = ({ text }) => {
         </p>
         <p>
           No caso de pacientes que apresentam
-          <span>flacidez e excesso de pele</span>
+          <span> flacidez e excesso de pele </span>
           associado a <span>gordura localizada no abdômen</span> pode fazer uma
-          lipoaspiração para retirar a gordura, e a <span>abdominoplastia</span>{" "}
+          lipoaspiração para retirar a gordura, e a <span> abdominoplastia </span>
           para corrigir a <span>flacidez e excesso de pele.</span>
         </p>
       </BoxTextSelect>
@@ -168,7 +168,7 @@ const ProcedimentosMobile = ({ text }) => {
         <p>
           A técnica não deve ser considerada como tratamento de obesidade, ou
           para excluir dietas e exercícios físicos.
-          <span>A abdominoplastia</span> não é recomendada nos casos em que
+          <span> A abdominoplastia </span> não é recomendada nos casos em que
           sejam previstos gestações futuras.
         </p>
         <p>

@@ -17,7 +17,7 @@ const ProcedimentosDesktop = ({ text }) => {
         <h2>Prótese de Recuperação Rápida 24H R24R</h2>
         <p>
           O procedimento de Prótese de Recuperação Rápida em 24h
-          <span>(Fast Track Recovery)</span> ou R24R, trata-se de uma técnica
+          <span> (Fast Track Recovery) </span> ou R24R, trata-se de uma técnica
           que já vinha sendo utilizada em outros procedimentos cirúrgicos, e nos
           últimos anos começou a ser utilizada pela mamoplastia, auxiliando
           assim as pacientes a terem uma recuperação mais rápida e menos
@@ -136,7 +136,7 @@ const ProcedimentosMobile = ({ text }) => {
         <h2>Prótese de Recuperação Rápida 24H R24R</h2>
         <p>
           O procedimento de Prótese de Recuperação Rápida em 24h
-          <span>(Fast Track Recovery)</span> ou R24R, trata-se de uma técnica
+          <span> (Fast Track Recovery) </span> ou R24R, trata-se de uma técnica
           que já vinha sendo utilizada em outros procedimentos cirúrgicos, e nos
           últimos anos começou a ser utilizada pela mamoplastia, auxiliando
           assim as pacientes a terem uma recuperação mais rápida e menos

@@ -39,7 +39,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
         <p>
           Baseada em estudos da anatomia corporal avançados, é associada a
-          <span>tecnologia ultrassônica</span> que minimiza os riscos e
+          <span> tecnologia ultrassônica </span> que minimiza os riscos e
           proporciona uma abordagem diferenciada nos depósitos de gordura
           corporal.
         </p>
@@ -181,13 +181,13 @@ const ProcedimentosMobile = ({ text }) => {
       <BoxTextSelect>
         <h2>O que é a lipo lad</h2>
         <p>
-          A <span>lipoaspiração de alta definição (Lipo LAD ou Lipo HD)</span>
+          A <span> lipoaspiração de alta definição (Lipo LAD ou Lipo HD) </span>
           consiste em uma técnica inovadora, já utilizada na Colômbia, Estados
           Unidos, França e Espanha a mais de uma década.
         </p>
         <p>
           Baseada em estudos da anatomia corporal avançados, é associada a
-          <span>tecnologia ultrassônica</span> que minimiza os riscos e
+          <span> tecnologia ultrassônica </span> que minimiza os riscos e
           proporciona uma abordagem diferenciada nos depósitos de gordura
           corporal.
         </p>

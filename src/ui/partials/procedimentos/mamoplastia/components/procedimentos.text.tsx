@@ -64,9 +64,9 @@ const ProcedimentosDesktop = ({ text }) => {
         <p>
           Antes do procedimento são fornecidas as pacientes todas as informações
           sobre a cirurgia, apresentando os resultados e possíveis complicações
-          e riscos. É analisada a melhor forma de colocar a{" "}
-          <span>prótese de silicone</span>, garantindo que tenha harmonia física
-          com o corpo da mulher.
+          e riscos. É analisada a melhor forma de colocar a
+          <span> prótese de silicone </span>, garantindo que tenha harmonia
+          física com o corpo da mulher.
         </p>
         <p>
           Depois das avaliações do Dr. Ícaro Samuel, a paciente deve realizar os
@@ -89,7 +89,7 @@ const ProcedimentosDesktop = ({ text }) => {
         <h2>Procedimento</h2>
         <p>
           O procedimento de
-          <span>Prótese de Mamade Recuperação Rápida de 24 horas </span>
+          <span> Prótese de Mamade Recuperação Rápida de 24 horas </span>
           (R24R) é surpreendente e tem uma aceitação incrível dentre as mulheres
           modernas, afinal, no dia seguinte já podem retomar as suas rotinas. O
           tempo de cirurgia é de aproximadamente 2 horas. Todo o processo
@@ -147,7 +147,7 @@ const ProcedimentosMobile = ({ text }) => {
         <p>
           Este procedimento é feito em mulheres que possuem seios pequenos ou
           sem volume. A cirurgia é consiste na colocação de
-          <span>implantes de silicone nas mamas.</span> A prótese garante
+          <span> implantes de silicone nas mamas. </span> A prótese garante
           firmeza, formato e aparência natural dos seios.
         </p>
       </BoxTextSelect>
@@ -195,9 +195,9 @@ const ProcedimentosMobile = ({ text }) => {
         <p>
           Antes do procedimento são fornecidas as pacientes todas as informações
           sobre a cirurgia, apresentando os resultados e possíveis complicações
-          e riscos. É analisada a melhor forma de colocar a{" "}
-          <span>prótese de silicone</span>, garantindo que tenha harmonia física
-          com o corpo da mulher.
+          e riscos. É analisada a melhor forma de colocar a
+          <span> prótese de silicone </span>, garantindo que tenha harmonia
+          física com o corpo da mulher.
         </p>
         <p>
           Depois das avaliações do Dr. Ícaro Samuel, a paciente deve realizar os
@@ -223,7 +223,7 @@ const ProcedimentosMobile = ({ text }) => {
         <h2>Procedimento</h2>
         <p>
           O procedimento de
-          <span>Prótese de Mamade Recuperação Rápida de 24 horas </span>
+          <span> Prótese de Mamade Recuperação Rápida de 24 horas </span>
           (R24R) é surpreendente e tem uma aceitação incrível dentre as mulheres
           modernas, afinal, no dia seguinte já podem retomar as suas rotinas. O
           tempo de cirurgia é de aproximadamente 2 horas. Todo o processo
