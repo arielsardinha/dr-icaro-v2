@@ -7,7 +7,7 @@ import Footer from "ui/component/footer/footer";
 const Mamoplastia = () => (
   <SectionImg>
     <Section>
-      <h1 data-aos="fade-up">mamoplastia</h1>
+      <h1 data-aos="fade-up">R24R - Fast Track Recovery</h1>
       <ProcedimentosText />
     </Section>
     <Box sx={{ position: "relative" }}>

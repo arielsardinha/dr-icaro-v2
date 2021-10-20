@@ -21,18 +21,9 @@ const DataProcedimentos = () => {
     <BoxProcedimentos data-aos="fade-up">
       <BoxInputs>
         <InputTypeProcedimentos
-          isSelected={selectedText === "Fast Track Recovery"}
-          onClick={() => {
-            setScroll(300);
-            setSelectedText("Fast Track Recovery");
-          }}
-        >
-          Fast Track Recovery
-        </InputTypeProcedimentos>
-        <InputTypeProcedimentos
           isSelected={selectedText === "mamoplastia"}
           onClick={() => {
-            setScroll(500);
+            setScroll(200);
             setSelectedText("mamoplastia");
           }}
         >
@@ -42,7 +33,7 @@ const DataProcedimentos = () => {
           sx={{ whiteSpace: "normal" }}
           isSelected={selectedText === "O que é aMamoplastia de Aumento"}
           onClick={() => {
-            setScroll(600);
+            setScroll(400);
             setSelectedText("O que é aMamoplastia de Aumento");
           }}
         >
@@ -51,7 +42,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Indicação"}
           onClick={() => {
-            setScroll(800);
+            setScroll(500);
             setSelectedText("Indicação");
           }}
         >
@@ -60,7 +51,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Preparo Necessário"}
           onClick={() => {
-            setScroll(900);
+            setScroll(700);
             setSelectedText("Preparo Necessário");
           }}
         >
@@ -69,11 +60,20 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "procedimento"}
           onClick={() => {
-            setScroll(1300);
+            setScroll(900);
             setSelectedText("procedimento");
           }}
         >
           procedimento
+        </InputTypeProcedimentos>
+        <InputTypeProcedimentos
+          isSelected={selectedText === "Pós Operatório"}
+          onClick={() => {
+            setScroll(1300);
+            setSelectedText("Pós Operatório");
+          }}
+        >
+          Pós Operatório
         </InputTypeProcedimentos>
       </BoxInputs>
       <BoxText>

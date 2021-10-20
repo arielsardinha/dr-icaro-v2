@@ -13,21 +13,6 @@ const ProcedimentosText = ({ text }) => {
 const ProcedimentosDesktop = ({ text }) => {
   return (
     <>
-      <BoxTextSelect isSelect={text === "Fast Track Recovery"}>
-        <h1>R24R - Fast Track Recovery</h1>
-        <p>
-          A reabilitação dessa paciente inicia ainda no centro cirúrgico, logo
-          após a finalização do mesmo, com exercícios que são realizados pela
-          equipe responsável pelo pós operatório imediato, e assim permitem que
-          a paciente retome sua atividade no dia seguinte, podendo inclusive
-          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
-          todas as recomendações especificas.
-        </p>
-        <p>
-          Sempre bom lembrar que a técnica, por ter uma reabilitação mais
-          rápida, exige que a paciente tenha hábitos de vida mais saudáveis.
-        </p>
-      </BoxTextSelect>
       <BoxTextSelect isSelect={text === "mamoplastia"}>
         <h2>Mamoplastia</h2>
         <p>
@@ -117,6 +102,21 @@ const ProcedimentosDesktop = ({ text }) => {
           Contudo, não devem e nem podem deixar de realizar seus exercícios pelo
           tempo previsto e continuar a seguir todas as orientações da equipe da
           Clínica Dr. Ícaro Samuel.
+        </p>
+      </BoxTextSelect>
+      <BoxTextSelect isSelect={text === "Pós Operatório"}>
+        <h1>R24R - Fast Track Recovery</h1>
+        <p>
+          A reabilitação dessa paciente inicia ainda no centro cirúrgico, logo
+          após a finalização do mesmo, com exercícios que são realizados pela
+          equipe responsável pelo pós operatório imediato, e assim permitem que
+          a paciente retome sua atividade no dia seguinte, podendo inclusive
+          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
+          todas as recomendações especificas.
+        </p>
+        <p>
+          Sempre bom lembrar que a técnica, por ter uma reabilitação mais
+          rápida, exige que a paciente tenha hábitos de vida mais saudáveis.
         </p>
       </BoxTextSelect>
     </>
