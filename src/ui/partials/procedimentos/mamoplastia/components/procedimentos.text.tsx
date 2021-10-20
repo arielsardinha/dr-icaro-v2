@@ -181,7 +181,7 @@ const ProcedimentosMobile = ({ text }) => {
     );
   if (text === "Preparo Necessário")
     return (
-      <BoxTextSelect isSelect={text === "Preparo Necessário"}>
+      <BoxTextSelect>
         <h2>Preparo Necessário</h2>
         <p>
           Antes do procedimento são fornecidas as pacientes todas as informações
@@ -230,7 +230,7 @@ const ProcedimentosMobile = ({ text }) => {
         </p>
       </BoxTextSelect>
     );
-  if (text === "Fast Track Recovery")
+  if (text === "Pós Operatório")
     return (
       <BoxTextSelect>
         <h1>R24R - Fast Track Recovery</h1>

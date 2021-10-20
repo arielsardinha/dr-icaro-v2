@@ -94,5 +94,8 @@ export const BoxTextSelect = styled("div", {
     text-align: center;
     ${({ theme, isSelect }) => handleSelect(theme, isSelect)}
     margin: ${({ theme }) => theme.spacing(4, 0, 0, 3)};
+    ${({ theme }) => theme.breakpoints.down("md")} {
+      text-align: left;
+    }
   }
 `;
