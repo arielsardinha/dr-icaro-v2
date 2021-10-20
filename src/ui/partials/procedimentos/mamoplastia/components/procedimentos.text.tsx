@@ -233,7 +233,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Pós Operatório")
     return (
       <BoxTextSelect>
-        <h1>R24R - Fast Track Recovery</h1>
+        <h1>Pós Operatório</h1>
         <p>
           A reabilitação dessa paciente inicia ainda no centro cirúrgico, logo
           após a finalização do mesmo, com exercícios que são realizados pela
