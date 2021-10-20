@@ -105,7 +105,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Pós Operatório"}>
-        <h1>R24R - Fast Track Recovery</h1>
+        <h1>Fast Track Recovery</h1>
         <p>
           A reabilitação dessa paciente inicia ainda no centro cirúrgico, logo
           após a finalização do mesmo, com exercícios que são realizados pela
