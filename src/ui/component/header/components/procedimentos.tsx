@@ -15,7 +15,7 @@ const Procedmentos = () => (
           loading="lazy"
           title="protese de silicone"
         />
-        <NextLink href="/protese-de-silicone/R24R">
+        <NextLink href="/procedimentos/protese-de-silicone/R24R">
           <a>prótese de silicone</a>
         </NextLink>
       </BoxImg>
@@ -27,7 +27,7 @@ const Procedmentos = () => (
           loading="lazy"
           title="lipo hd feminina"
         />
-        <NextLink href="/lipo-hd-cirurgia-lad-4d">
+        <NextLink href="/procedimentos/lipo-lad-hd">
           <a>lipo hd feminina</a>
         </NextLink>
       </BoxImg>
@@ -39,7 +39,7 @@ const Procedmentos = () => (
           loading="lazy"
           title="abdominoplastia"
         />
-        <NextLink href="/abdominoplastia">
+        <NextLink href="/procedimentos/abdominoplastia">
           <a>abdominoplastia</a>
         </NextLink>
       </BoxImg>
@@ -51,7 +51,7 @@ const Procedmentos = () => (
           loading="lazy"
           title="mastopexia"
         />
-        <NextLink href="/mastopexia">
+        <NextLink href="/procedimentos/mastopexia">
           <a>mastopexia</a>
         </NextLink>
       </BoxImg>
@@ -63,7 +63,7 @@ const Procedmentos = () => (
           loading="lazy"
           title="ninfoplastia"
         />
-        <NextLink href="/ninfoplastia">
+        <NextLink href="/procedimentos/ninfoplastia">
           <a>ninfoplastia</a>
         </NextLink>
       </BoxImg>
@@ -75,7 +75,7 @@ const Procedmentos = () => (
           loading="lazy"
           title="lipo hd masculina"
         />
-        <NextLink href="/lipo-hd-cirurgia-lad-4d">
+        <NextLink href="/procedimentos/lipo-lad-hd">
           <a>lipo hd masculina</a>
         </NextLink>
       </BoxImg>

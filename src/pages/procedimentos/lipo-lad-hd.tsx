@@ -1,20 +1,20 @@
 import { GetStaticProps } from "next";
 import Nav from "ui/component/menu-nav/menuNav";
-import Mamoplastia from "@partials/procedimentos/mamoplastia/mamoplastia";
+import LadFeminina from "@partials/procedimentos/lad-feminina/ladFeminina";
 
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      title: "mamoplastia",
+      title: "Lipo LAD: Tudo sobre a lipo de alta definição",
     },
   };
 };
 
-export default function MamoplastiaIndex() {
+export default function LadFemininaIndex() {
   return (
     <>
       <Nav />
-      <Mamoplastia />
+      <LadFeminina />
     </>
   );
 }

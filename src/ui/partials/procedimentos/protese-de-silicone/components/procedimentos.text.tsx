@@ -14,7 +14,7 @@ const ProcedimentosDesktop = ({ text }) => {
   return (
     <>
       <BoxTextSelect isSelect={text === "Prótese de Recuperação Rápida"}>
-        <h3>Prótese de Recuperação Rápida 24H R24R</h3>
+        <h2>Prótese de Recuperação Rápida 24H R24R</h2>
         <p>
           O procedimento de Prótese de Recuperação Rápida em 24h
           <span>(Fast Track Recovery)</span> ou R24R, trata-se de uma técnica
@@ -25,7 +25,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Benefícios"}>
-        <h3>Benefícios</h3>
+        <h2>Benefícios</h2>
         <p>
           Com a técnica R24R você terá alta do hospital entre 3 a 4 horas após o
           procedimento. No dia seguinte, já pode retornar as suas atividades
@@ -42,7 +42,7 @@ const ProcedimentosDesktop = ({ text }) => {
       </BoxTextSelect>
 
       <BoxTextSelect isSelect={text === "Indicação"}>
-        <h3>Indicação</h3>
+        <h2>Indicação</h2>
         <p>
           Está técnica é para as mulheres que buscam um excelente resultado e
           querem voltar as suas atividades em pouco tempo.
@@ -59,7 +59,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Procedimento"}>
-        <h3>Procedimento</h3>
+        <h2>Procedimento</h2>
         <p>
           A técnica da R24R consiste na introdução do implante mamário com Grip
           Plane (Dual Plane ou planoduplo) muscular e subglandular.
@@ -85,7 +85,7 @@ const ProcedimentosDesktop = ({ text }) => {
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Pré e Pós-operatório"}>
-        <h3>Pré e Pós-operatório</h3>
+        <h2>Pré e Pós-operatório</h2>
         <p>
           O pré-operatório da R24Rconsiste em uma avaliação, onde verificaremos,
           primeiramente a sua saúde e estrutura corpórea.Fazendo assim uma
@@ -133,7 +133,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Prótese de Recuperação Rápida")
     return (
       <BoxTextSelect>
-        <h3>Prótese de Recuperação Rápida 24H R24R</h3>
+        <h2>Prótese de Recuperação Rápida 24H R24R</h2>
         <p>
           O procedimento de Prótese de Recuperação Rápida em 24h
           <span>(Fast Track Recovery)</span> ou R24R, trata-se de uma técnica
@@ -147,7 +147,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Benefícios")
     return (
       <BoxTextSelect>
-        <h3>Benefícios</h3>
+        <h2>Benefícios</h2>
         <p>
           Com a técnica R24R você terá alta do hospital entre 3 a 4 horas após o
           procedimento. No dia seguinte, já pode retornar as suas atividades
@@ -166,7 +166,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Indicação")
     return (
       <BoxTextSelect>
-        <h3>Indicação</h3>
+        <h2>Indicação</h2>
         <p>
           Está técnica é para as mulheres que buscam um excelente resultado e
           querem voltar as suas atividades em pouco tempo.
@@ -186,7 +186,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Procedimento")
     return (
       <BoxTextSelect>
-        <h3>Procedimento</h3>
+        <h2>Procedimento</h2>
         <p>
           A técnica da R24R consiste na introdução do implante mamário com Grip
           Plane (Dual Plane ou planoduplo) muscular e subglandular.
@@ -215,7 +215,7 @@ const ProcedimentosMobile = ({ text }) => {
   if (text === "Pré e Pós-operatório")
     return (
       <BoxTextSelect>
-        <h3>Pré e Pós-operatório</h3>
+        <h2>Pré e Pós-operatório</h2>
         <p>
           O pré-operatório da R24Rconsiste em uma avaliação, onde verificaremos,
           primeiramente a sua saúde e estrutura corpórea.Fazendo assim uma

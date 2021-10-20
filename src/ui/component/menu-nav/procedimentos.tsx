@@ -19,27 +19,27 @@ const Procedimentos = () => {
             overflow: "hidden",
           }}
         >
-          <NextLink href="/protese-de-silicone/R24R">
+          <NextLink href="/procedimentos/protese-de-silicone/R24R">
             <Procedimento sx={{ mt: 5.5 }}>prótese de silicone</Procedimento>
           </NextLink>
 
-          <NextLink href="/lipo-hd-cirurgia-lad-4d">
+          <NextLink href="/procedimentos/lipo-lad-hd">
             <Procedimento>lipo lad (lipo HD)</Procedimento>
           </NextLink>
 
-          <NextLink href="/abdominoplastia">
+          <NextLink href="/procedimentos/abdominoplastia">
             <Procedimento>abdominoplastia</Procedimento>
           </NextLink>
 
-          <NextLink href="/mamoplastia">
+          <NextLink href="/procedimentos/r24r-fast-track-recovery">
             <Procedimento>mamoplastia</Procedimento>
           </NextLink>
 
-          <NextLink href="/mastopexia">
+          <NextLink href="/procedimentos/mastopexia">
             <Procedimento>mastopexia</Procedimento>
           </NextLink>
 
-          <NextLink href="/ninfoplastia">
+          <NextLink href="/procedimentos/ninfoplastia">
             <Procedimento>ninfoplastia</Procedimento>
           </NextLink>
         </Box>

@@ -11,7 +11,7 @@ const LadFeminina = () => (
         vamos juntos ao encontro <br />
         <span>da sua melhor versão</span>
       </h2>
-      <h1 data-aos="fade-up">lipo lad</h1>
+      <h1 data-aos="fade-up">Lipo LAD (HD)</h1>
       <DataProcedimentos />
     </Section>
     <Box sx={{ position: "relative" }}>
