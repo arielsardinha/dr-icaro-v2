@@ -7,10 +7,6 @@ import { Box } from "@material-ui/core";
 const Mastopexia = () => (
   <SectionImg id="mastopexia">
     <Section>
-      <h2 data-aos="fade-up">
-        vamos juntos ao encontro <br />
-        <span> da sua melhor versão </span>
-      </h2>
       <h1 data-aos="fade-up">mastopexia</h1>
       <ProcedimentosText />
     </Section>

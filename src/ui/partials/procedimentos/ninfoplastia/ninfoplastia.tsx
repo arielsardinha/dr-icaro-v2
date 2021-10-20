@@ -7,10 +7,6 @@ import DataProcedimentos from "./components/dataProcedimentos";
 const Ninfoplastia = () => (
   <SectionImg>
     <Section>
-      <h2 data-aos="fade-up">
-        vamos juntos ao encontro <br />
-        <span> da sua melhor versão </span>
-      </h2>
       <h1 data-aos="fade-up">ninfoplastia</h1>
       <DataProcedimentos />
     </Section>

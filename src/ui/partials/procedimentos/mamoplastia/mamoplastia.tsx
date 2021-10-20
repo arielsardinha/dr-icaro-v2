@@ -7,10 +7,6 @@ import Footer from "ui/component/footer/footer";
 const Mamoplastia = () => (
   <SectionImg>
     <Section>
-      <h2 data-aos="fade-up">
-        vamos juntos ao encontro <br />
-        <span> da sua melhor versão </span>
-      </h2>
       <h1 data-aos="fade-up">mamoplastia</h1>
       <ProcedimentosText />
     </Section>

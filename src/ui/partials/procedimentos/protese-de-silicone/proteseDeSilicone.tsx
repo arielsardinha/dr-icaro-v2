@@ -7,10 +7,6 @@ import { Box } from "@material-ui/core";
 const ProteseDeSilicone = () => (
   <SectionImg id="proteseDeSilicone">
     <Section>
-      <h2 data-aos="fade-up">
-        vamos juntos ao encontro <br />
-        <span> da sua melhor versão </span>
-      </h2>
       <h1 data-aos="fade-up">prótese de silicone</h1>
       <DataProcedimentos />
     </Section>
