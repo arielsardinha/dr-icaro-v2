@@ -61,7 +61,6 @@ export const BoxImages = styled("figure")`
     justify-content: center;
   }
   img {
-    width: 75%;
     margin: ${({ theme }) => theme.spacing(2)};
     &:first-of-type {
       margin-left: 0;
