@@ -19,7 +19,7 @@ const Procedimentos = () => {
             overflow: "hidden",
           }}
         >
-          <NextLink href="/procedimentos/protese-de-silicone/R24R">
+          <NextLink href="/procedimentos/r24r-fast-track-recovery">
             <Procedimento sx={{ mt: 5.5 }}>prótese de silicone</Procedimento>
           </NextLink>
 
@@ -31,7 +31,7 @@ const Procedimentos = () => {
             <Procedimento>abdominoplastia</Procedimento>
           </NextLink>
 
-          <NextLink href="/procedimentos/r24r-fast-track-recovery">
+          <NextLink href="/procedimentos/mamoplastia-entenda-como-e-realizado-o-implante">
             <Procedimento>mamoplastia</Procedimento>
           </NextLink>
 

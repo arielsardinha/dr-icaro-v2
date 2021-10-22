@@ -25,7 +25,7 @@ const ProcedimentosDesktop = ({ text }) => {
         <p>
           Este procedimento é feito em mulheres que possuem seios pequenos ou
           sem volume. A cirurgia é consiste na colocação de
-          <span>implantes de silicone nas mamas.</span> A prótese garante
+          <span> implantes de silicone nas mamas. </span> A prótese garante
           firmeza, formato e aparência natural dos seios.
         </p>
       </BoxTextSelect>

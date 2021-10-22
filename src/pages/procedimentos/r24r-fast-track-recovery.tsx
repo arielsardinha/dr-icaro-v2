@@ -1,20 +1,20 @@
 import { GetStaticProps } from "next";
 import Nav from "ui/component/menu-nav/menuNav";
-import Mamoplastia from "@partials/procedimentos/mamoplastia/mamoplastia";
+import ProteseDeSilicone from "@partials/procedimentos/protese-de-silicone/proteseDeSilicone";
 
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      title: "R24R - Fast Track Recovery Mamário",
+      title: "protese de silicone R24R",
     },
   };
 };
 
-export default function MamoplastiaIndex() {
+export default function proteseDeSiliconeIndex() {
   return (
     <>
       <Nav />
-      <Mamoplastia />
+      <ProteseDeSilicone />
     </>
   );
 }

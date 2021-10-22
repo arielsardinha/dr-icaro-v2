@@ -15,7 +15,7 @@ const Procedmentos = () => (
           loading="lazy"
           title="protese de silicone"
         />
-        <NextLink href="/procedimentos/protese-de-silicone/R24R">
+        <NextLink href="/procedimentos/r24r-fast-track-recovery">
           <a>prótese de silicone</a>
         </NextLink>
       </BoxImg>
