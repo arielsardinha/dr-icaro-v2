@@ -235,17 +235,25 @@ const ProcedimentosMobile = ({ text }) => {
       <BoxTextSelect>
         <h1>Pós Operatório</h1>
         <p>
-          A reabilitação dessa paciente inicia ainda no centro cirúrgico, logo
+          A reabilitação dessa paciente, inicia ainda no centro cirúrgico, logo
           após a finalização do mesmo, com exercícios que são realizados pela
-          equipe responsável pelo pós operatório imediato, e assim permitem que
-          a paciente retome sua atividade no dia seguinte, podendo inclusive
-          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
-          todas as recomendações especificas.
+          equipe responsável pelo pós-operatório imediato.Sempre bom lembrar que
+          a técnica, por ter uma reabilitação mais rápida, exige que a paciente
+          tenha hábitos de vida mais saudáveis.
         </p>
         <p>
-          Sempre bom lembrar que a técnica, por ter uma reabilitação mais
-          rápida, exige que a paciente tenha hábitos de vida mais saudáveis.
+          Abaixo, segue algumas recomendações para uma recuperação saudável e
+          rápida:
         </p>
+        <ul>
+          <li>
+            Para dar sustentação e imobilizar a regiãoé preciso usar um sutiã
+            especialque auxilia na cicatrização e posição das manas.
+          </li>
+          <li>evitar a exposição direta ao sol também por 30 dias.</li>
+          <li>retirar os pontos no período de 7 a 15 dias após a cirurgia;</li>
+          <li>permanecer com curativos por 30 a 60 dias;</li>
+        </ul>
       </BoxTextSelect>
     );
 };

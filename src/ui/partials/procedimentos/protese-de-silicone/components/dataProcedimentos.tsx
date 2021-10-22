@@ -62,13 +62,22 @@ const DataProcedimentos = () => {
           Procedimento
         </InputTypeProcedimentos>
         <InputTypeProcedimentos
-          isSelected={selectedText === "Pré e Pós-operatório"}
+          isSelected={selectedText === "Pós Operatório"}
           onClick={() => {
-            setScroll(1000);
-            setSelectedText("Pré e Pós-operatório");
+            setScroll(900);
+            setSelectedText("Pós Operatório");
           }}
         >
-          Pré e Pós-operatório
+          Pós Operatório
+        </InputTypeProcedimentos>
+        <InputTypeProcedimentos
+          isSelected={selectedText === "Preparo Necessário"}
+          onClick={() => {
+            setScroll(1000);
+            setSelectedText("Preparo Necessário");
+          }}
+        >
+          Preparo Necessário
         </InputTypeProcedimentos>
       </BoxInputs>
 

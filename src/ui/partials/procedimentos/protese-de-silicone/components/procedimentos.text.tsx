@@ -14,7 +14,7 @@ const ProcedimentosDesktop = ({ text }) => {
   return (
     <>
       <BoxTextSelect isSelect={text === "Prótese de Recuperação Rápida"}>
-        <h2>Prótese de Recuperação Rápida 24H R24R</h2>
+        <h1>Prótese de Recuperação Rápida 24H R24R</h1>
         <p>
           O procedimento de Prótese de Recuperação Rápida em 24h
           <span> (Fast Track Recovery) </span> ou R24R, trata-se de uma técnica
@@ -84,45 +84,43 @@ const ProcedimentosDesktop = ({ text }) => {
           Resumindo, ela exerce a mesma função de um sutiã: sustentação da mama.
         </p>
       </BoxTextSelect>
-      <BoxTextSelect isSelect={text === "Pré e Pós-operatório"}>
-        <h2>Pré e Pós-operatório</h2>
+      <BoxTextSelect isSelect={text === "Pós Operatório"}>
+        <h2>Pós Operatório</h2>
         <p>
-          O pré-operatório da R24Rconsiste em uma avaliação, onde verificaremos,
-          primeiramente a sua saúde e estrutura corpórea.Fazendo assim uma
-          harmonização do seu corpo para ver se enquadra as suas expectativas.
+          A reabilitação dessa paciente, inicia ainda no centro cirúrgico, logo
+          após a finalização do mesmo, com exercícios que são realizados pela
+          equipe responsável pelo pós operatório imediato, e assim permitem que
+          a paciente retome sua atividade no dia seguinte, podendo inclusive
+          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
+          todas as recomendações especificas do seu cirurgião.A reabilitação
+          dessa paciente, inicia ainda no centro cirúrgico, logo após a
+          finalização do mesmo, com exercícios que são realizados pela equipe
+          responsável pelo pós operatório imediato, e assim permitem que a
+          paciente retome sua atividade no dia seguinte, podendo inclusive
+          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
+          todas as recomendações especificas do seu cirurgião.Sempre bom lembrar
+          que a técnica, por ter uma reabilitação mais rápida, exige que a
+          paciente tenha hábitos de vida mais saudáveis.
+        </p>
+      </BoxTextSelect>
+      <BoxTextSelect isSelect={text === "Preparo Necessário"}>
+        <h2>Preparo Necessário</h2>
+        <p>
+          Antes do procedimento são fornecidas as pacientes todas as informações
+          sobre a cirurgia, apresentando os resultados e possíveis complicações
+          e riscos. É analisada a melhor forma de colocar a prótese de silicone,
+          para que a mesma tenha harmonia física com o corpo da mulher.
         </p>
         <p>
-          Para melhorar sua experiência, no dia da sua consulta – Dream Day
-          <a href="">(link para a página do Dream Day)</a>, você
-          utilizaráoCrisalix, que é uma
+          Depois das avaliações do profissional, a paciente deve realizar os
+          exames pré-operatórios de praxe: exame de sangue, eletrocardiograma,
+          radiografia de tórax. Uma detalhada análise da mama com
+          ultrassonografia e mamografia já deverá ter sido feita.
         </p>
         <p>
-          tecnologia de realidade 3D onde através de uma simulação de realidade
-          aumentada você consegue verificar seu resultado cirúrgico.
-        </p>
-        <p>
-          Após essaetapa passamos ao planejamento do seu sonho, com profissional
-          especializado e, caso não tenha nenhuma ressalva, passamos aos seus
-          exames cirúrgicos e recomendações pré-cirúrgicas.
-        </p>
-        <p>
-          No pós-operatório você continuará em acompanhamento de minha equipe.
-          Você terá um acompanhamento de uma enfermeira altamente especializada
-          para lhe atender, cuidando de sua recuperação cirúrgica. Nosso
-          acompanhamento no pós-cirúrgico e na sua recuperação, ainda é
-          realizado por Fisioterapeuta e Esteticista altamente qualificadas,
-          concluindo assim de maneira eficiente e possibilitando o resultado
-          esperado.
-        </p>
-        <p>
-          Realizamos um protocolotécnico, isso possibilitará o seu retorno à sua
-          rotina no dia seguinte à cirurgia. O banho já está liberado no dia do
-          procedimento, bem como sair de casa na mesma noite, dirigir e retornar
-          ao trabalho nos dias seguintes.
-        </p>
-        <p>
-          Depois de 24 horas após o procedimento, você estará liberada para
-          pegar até 15 kg.
+          8 horas antes do procedimento, é preciso fazer jejum absoluto de
+          alimentos sólidos e líquidos. É necessário interromper o consumo de
+          bebidas alcoólicas e fumo para realizar a cirurgia.
         </p>
       </BoxTextSelect>
     </>
@@ -212,47 +210,48 @@ const ProcedimentosMobile = ({ text }) => {
         </p>
       </BoxTextSelect>
     );
-  if (text === "Pré e Pós-operatório")
+  if (text === "Pós Operatório")
     return (
       <BoxTextSelect>
-        <h2>Pré e Pós-operatório</h2>
+        <h2>Pós Operatório</h2>
         <p>
-          O pré-operatório da R24Rconsiste em uma avaliação, onde verificaremos,
-          primeiramente a sua saúde e estrutura corpórea.Fazendo assim uma
-          harmonização do seu corpo para ver se enquadra as suas expectativas.
+          A reabilitação dessa paciente, inicia ainda no centro cirúrgico, logo
+          após a finalização do mesmo, com exercícios que são realizados pela
+          equipe responsável pelo pós operatório imediato, e assim permitem que
+          a paciente retome sua atividade no dia seguinte, podendo inclusive
+          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
+          todas as recomendações especificas do seu cirurgião.A reabilitação
+          dessa paciente, inicia ainda no centro cirúrgico, logo após a
+          finalização do mesmo, com exercícios que são realizados pela equipe
+          responsável pelo pós operatório imediato, e assim permitem que a
+          paciente retome sua atividade no dia seguinte, podendo inclusive
+          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
+          todas as recomendações especificas do seu cirurgião.Sempre bom lembrar
+          que a técnica, por ter uma reabilitação mais rápida, exige que a
+          paciente tenha hábitos de vida mais saudáveis.
+        </p>
+      </BoxTextSelect>
+    );
+  if (text === "Preparo Necessário")
+    return (
+      <BoxTextSelect>
+        <h2>Preparo Necessário</h2>
+        <p>
+          Antes do procedimento são fornecidas as pacientes todas as informações
+          sobre a cirurgia, apresentando os resultados e possíveis complicações
+          e riscos. É analisada a melhor forma de colocar a prótese de silicone,
+          para que a mesma tenha harmonia física com o corpo da mulher.
         </p>
         <p>
-          Para melhorar sua experiência, no dia da sua consulta – Dream Day
-          <a href="">(link para a página do Dream Day)</a>, você
-          utilizaráoCrisalix, que é uma
+          Depois das avaliações do profissional, a paciente deve realizar os
+          exames pré-operatórios de praxe: exame de sangue, eletrocardiograma,
+          radiografia de tórax. Uma detalhada análise da mama com
+          ultrassonografia e mamografia já deverá ter sido feita.
         </p>
         <p>
-          tecnologia de realidade 3D onde através de uma simulação de realidade
-          aumentada você consegue verificar seu resultado cirúrgico.
-        </p>
-        <p>
-          Após essaetapa passamos ao planejamento do seu sonho, com profissional
-          especializado e, caso não tenha nenhuma ressalva, passamos aos seus
-          exames cirúrgicos e recomendações pré-cirúrgicas.
-        </p>
-        <p>
-          No pós-operatório você continuará em acompanhamento de minha equipe.
-          Você terá um acompanhamento de uma enfermeira altamente especializada
-          para lhe atender, cuidando de sua recuperação cirúrgica. Nosso
-          acompanhamento no pós-cirúrgico e na sua recuperação, ainda é
-          realizado por Fisioterapeuta e Esteticista altamente qualificadas,
-          concluindo assim de maneira eficiente e possibilitando o resultado
-          esperado.
-        </p>
-        <p>
-          Realizamos um protocolotécnico, isso possibilitará o seu retorno à sua
-          rotina no dia seguinte à cirurgia. O banho já está liberado no dia do
-          procedimento, bem como sair de casa na mesma noite, dirigir e retornar
-          ao trabalho nos dias seguintes.
-        </p>
-        <p>
-          Depois de 24 horas após o procedimento, você estará liberada para
-          pegar até 15 kg.
+          8 horas antes do procedimento, é preciso fazer jejum absoluto de
+          alimentos sólidos e líquidos. É necessário interromper o consumo de
+          bebidas alcoólicas e fumo para realizar a cirurgia.
         </p>
       </BoxTextSelect>
     );

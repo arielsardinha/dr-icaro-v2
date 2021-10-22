@@ -7,7 +7,7 @@ import { Box } from "@material-ui/core";
 const ProteseDeSilicone = () => (
   <SectionImg id="proteseDeSilicone">
     <Section>
-      <h1 data-aos="fade-up">prótese de silicone</h1>
+      <h1 data-aos="fade-up">R24R - Fast Track Recovery</h1>
       <DataProcedimentos />
     </Section>
     <Box sx={{ position: "relative" }}>
