@@ -9,7 +9,7 @@ import Footer from "ui/component/footer/footer";
 
 export const DrIcaro = () => (
   <ContainerDrIcaro>
-    <video muted={true} autoPlay loop className="bg_video">
+    <video muted={true} controls={false} autoPlay loop className="bg_video">
       <source src="/video/backVideo.mp4" type="video/mp4" />
     </video>
     <ConhecaDrIcaro>

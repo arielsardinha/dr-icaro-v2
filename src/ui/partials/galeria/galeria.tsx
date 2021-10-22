@@ -22,7 +22,7 @@ const Galeria = () => (
     <Container>
       <Carousel />
     </Container>
-    <video muted={true} autoPlay loop className="bg_video">
+    <video muted={true} controls={false} autoPlay loop className="bg_video">
       <source src="/video/backVideo.mp4" type="video/mp4" />
     </video>
   </Section>

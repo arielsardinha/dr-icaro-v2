@@ -11,7 +11,13 @@ const SobreNos = ({ sobreNos }) => {
     return (
       <BoxStyled>
         <BoxUsers>
-          <video muted={true} autoPlay loop className="bg_video">
+          <video
+            muted={true}
+            controls={false}
+            autoPlay
+            loop
+            className="bg_video"
+          >
             <source src="/video/backVideo.mp4" type="video/mp4" />
           </video>
 
@@ -169,7 +175,7 @@ const SobreNos = ({ sobreNos }) => {
   if (sobreNos === "icaro")
     return (
       <BoxStyled>
-        <video autoPlay loop className="bg_video">
+        <video autoPlay muted={true} controls={false} loop className="bg_video">
           <source src="/video/backVideo.mp4" type="video/mp4" />
         </video>
 
