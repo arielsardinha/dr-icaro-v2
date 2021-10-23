@@ -84,25 +84,6 @@ const ProcedimentosDesktop = ({ text }) => {
           Resumindo, ela exerce a mesma função de um sutiã: sustentação da mama.
         </p>
       </BoxTextSelect>
-      <BoxTextSelect isSelect={text === "Pós Operatório"}>
-        <h2>Pós Operatório</h2>
-        <p>
-          A reabilitação dessa paciente, inicia ainda no centro cirúrgico, logo
-          após a finalização do mesmo, com exercícios que são realizados pela
-          equipe responsável pelo pós operatório imediato, e assim permitem que
-          a paciente retome sua atividade no dia seguinte, podendo inclusive
-          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
-          todas as recomendações especificas do seu cirurgião.A reabilitação
-          dessa paciente, inicia ainda no centro cirúrgico, logo após a
-          finalização do mesmo, com exercícios que são realizados pela equipe
-          responsável pelo pós operatório imediato, e assim permitem que a
-          paciente retome sua atividade no dia seguinte, podendo inclusive
-          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
-          todas as recomendações especificas do seu cirurgião.Sempre bom lembrar
-          que a técnica, por ter uma reabilitação mais rápida, exige que a
-          paciente tenha hábitos de vida mais saudáveis.
-        </p>
-      </BoxTextSelect>
       <BoxTextSelect isSelect={text === "Preparo Necessário"}>
         <h2>Preparo Necessário</h2>
         <p>
@@ -121,6 +102,25 @@ const ProcedimentosDesktop = ({ text }) => {
           8 horas antes do procedimento, é preciso fazer jejum absoluto de
           alimentos sólidos e líquidos. É necessário interromper o consumo de
           bebidas alcoólicas e fumo para realizar a cirurgia.
+        </p>
+      </BoxTextSelect>
+      <BoxTextSelect isSelect={text === "Pós Operatório"}>
+        <h2>Pós Operatório</h2>
+        <p>
+          A reabilitação dessa paciente, inicia ainda no centro cirúrgico, logo
+          após a finalização do mesmo, com exercícios que são realizados pela
+          equipe responsável pelo pós operatório imediato, e assim permitem que
+          a paciente retome sua atividade no dia seguinte, podendo inclusive
+          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
+          todas as recomendações especificas do seu cirurgião.A reabilitação
+          dessa paciente, inicia ainda no centro cirúrgico, logo após a
+          finalização do mesmo, com exercícios que são realizados pela equipe
+          responsável pelo pós operatório imediato, e assim permitem que a
+          paciente retome sua atividade no dia seguinte, podendo inclusive
+          voltar a dirigir e pegar peso de até 15 kg, obviamente que obedecendo
+          todas as recomendações especificas do seu cirurgião.Sempre bom lembrar
+          que a técnica, por ter uma reabilitação mais rápida, exige que a
+          paciente tenha hábitos de vida mais saudáveis.
         </p>
       </BoxTextSelect>
     </>

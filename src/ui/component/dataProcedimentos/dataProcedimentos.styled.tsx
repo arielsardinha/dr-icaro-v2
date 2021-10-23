@@ -10,7 +10,7 @@ export const BoxText = styled("div")`
     font-weight: bold;
   }
   ${({ theme }) => theme.breakpoints.up("md")} {
-    margin-left: ${({ theme }) => theme.spacing(28)};
+    margin-left: 200px;
   }
   ${({ theme }) => theme.breakpoints.down("xs")} {
     padding: ${({ theme }) => theme.spacing(1)};
@@ -29,18 +29,15 @@ function handle(theme: Theme, isSelected?: boolean) {
     outline: 0;
     background-color: ${theme.palette.primary.light};
     color: ${theme.palette.text.secondary};
-    border-radius: 20px 0 0 20px;
+    border-radius: 15px 0 0 15px;
     `;
   }
   return `
-    border-radius: 20px;
+    border-radius: 15px;
     color: ${theme.palette.text.primary};
-    margin: ${theme.spacing(0, 3, 1, 0)};
+    margin: ${theme.spacing(0, 0, 1, 0)};
     border: solid 1px ${theme.palette.grey[300]};
     background-color: transparent;
-    ${theme.breakpoints.down("xs")} {
-      margin: ${theme.spacing(0, 0, 1, 0)};
-    }
   `;
 }
 
