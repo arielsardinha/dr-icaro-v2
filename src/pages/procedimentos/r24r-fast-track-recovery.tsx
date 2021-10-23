@@ -5,7 +5,7 @@ import ProteseDeSilicone from "@partials/procedimentos/protese-de-silicone/prote
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      title: "protese de silicone R24R",
+      title: "R24R - Fast Track Recovery Mamário",
     },
   };
 };

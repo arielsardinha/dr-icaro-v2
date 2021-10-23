@@ -5,7 +5,7 @@ import Mamoplastia from "@partials/procedimentos/mamoplastia/mamoplastia";
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      title: "R24R - Fast Track Recovery Mamário",
+      title: "Mamoplastia: entenda como é realizado o implamte",
     },
   };
 };
