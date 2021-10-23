@@ -25,7 +25,7 @@ const DataProcedimentos = () => {
           sx={{ whiteSpace: "normal" }}
           isSelected={selectedText === "O que é abdominoplastia"}
           onClick={() => {
-            setScroll(300);
+            setScroll(150);
             setSelectedText("O que é abdominoplastia");
           }}
         >
@@ -34,7 +34,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Como funciona"}
           onClick={() => {
-            setScroll(500);
+            setScroll(350);
             setSelectedText("Como funciona");
           }}
         >
@@ -43,7 +43,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Pré-operatório"}
           onClick={() => {
-            setScroll(1100);
+            setScroll(850);
             setSelectedText("Pré-operatório");
           }}
         >
@@ -52,7 +52,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Recuperação"}
           onClick={() => {
-            setScroll(1300);
+            setScroll(1000);
             setSelectedText("Recuperação");
           }}
         >

@@ -28,7 +28,7 @@ const DataProcedimentos = () => {
           sx={{ whiteSpace: "normal" }}
           isSelected={selectedText === "Prótese de Recuperação Rápida"}
           onClick={() => {
-            setScroll(200);
+            setScroll(150);
             setSelectedText("Prótese de Recuperação Rápida");
           }}
         >
@@ -37,7 +37,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Benefícios"}
           onClick={() => {
-            setScroll(300);
+            setScroll(250);
             setSelectedText("Benefícios");
           }}
         >
@@ -55,7 +55,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Procedimento"}
           onClick={() => {
-            setScroll(700);
+            setScroll(650);
             setSelectedText("Procedimento");
           }}
         >
@@ -64,7 +64,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Preparo Necessário"}
           onClick={() => {
-            setScroll(900);
+            setScroll(850);
             setSelectedText("Preparo Necessário");
           }}
         >

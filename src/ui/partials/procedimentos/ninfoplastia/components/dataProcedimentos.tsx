@@ -25,7 +25,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Ninfoplastia"}
           onClick={() => {
-            setScroll(300);
+            setScroll(150);
             setSelectedText("Ninfoplastia");
           }}
         >
@@ -34,7 +34,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Indicações"}
           onClick={() => {
-            setScroll(400);
+            setScroll(300);
             setSelectedText("Indicações");
           }}
         >
@@ -43,7 +43,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Contraindicações"}
           onClick={() => {
-            setScroll(600);
+            setScroll(400);
             setSelectedText("Contraindicações");
           }}
         >
@@ -52,7 +52,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Pré-operatório"}
           onClick={() => {
-            setScroll(800);
+            setScroll(550);
             setSelectedText("Pré-operatório");
           }}
         >
@@ -61,7 +61,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Pós-operatório"}
           onClick={() => {
-            setScroll(900);
+            setScroll(700);
             setSelectedText("Pós-operatório");
           }}
         >
@@ -70,7 +70,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Como é feita"}
           onClick={() => {
-            setScroll(1200);
+            setScroll(850);
             setSelectedText("Como é feita");
           }}
         >

@@ -24,7 +24,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "lipoaspiração"}
           onClick={() => {
-            setScroll(300);
+            setScroll(150);
             setSelectedText("lipoaspiração");
           }}
         >
@@ -33,7 +33,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "o que é a lipo lad"}
           onClick={() => {
-            setScroll(500);
+            setScroll(300);
             setSelectedText("o que é a lipo lad");
           }}
         >
@@ -42,7 +42,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "benefícios"}
           onClick={() => {
-            setScroll(900);
+            setScroll(700);
             setSelectedText("benefícios");
           }}
         >
@@ -51,7 +51,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "indicação"}
           onClick={() => {
-            setScroll(1000);
+            setScroll(800);
             setSelectedText("indicação");
           }}
         >
@@ -60,7 +60,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "procedimento"}
           onClick={() => {
-            setScroll(1300);
+            setScroll(1000);
             setSelectedText("procedimento");
           }}
         >
@@ -69,7 +69,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "pré e pós operatório"}
           onClick={() => {
-            setScroll(1500);
+            setScroll(1200);
             setSelectedText("pré e pós operatório");
           }}
         >

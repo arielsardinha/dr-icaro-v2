@@ -23,7 +23,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "mamoplastia"}
           onClick={() => {
-            setScroll(200);
+            setScroll(150);
             setSelectedText("mamoplastia");
           }}
         >
@@ -33,7 +33,7 @@ const DataProcedimentos = () => {
           sx={{ whiteSpace: "normal" }}
           isSelected={selectedText === "O que é aMamoplastia de Aumento"}
           onClick={() => {
-            setScroll(400);
+            setScroll(300);
             setSelectedText("O que é aMamoplastia de Aumento");
           }}
         >
@@ -42,7 +42,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Indicação"}
           onClick={() => {
-            setScroll(500);
+            setScroll(450);
             setSelectedText("Indicação");
           }}
         >
@@ -51,7 +51,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Preparo Necessário"}
           onClick={() => {
-            setScroll(700);
+            setScroll(600);
             setSelectedText("Preparo Necessário");
           }}
         >
@@ -60,7 +60,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "procedimento"}
           onClick={() => {
-            setScroll(900);
+            setScroll(800);
             setSelectedText("procedimento");
           }}
         >
@@ -69,7 +69,7 @@ const DataProcedimentos = () => {
         <InputTypeProcedimentos
           isSelected={selectedText === "Pós Operatório"}
           onClick={() => {
-            setScroll(1300);
+            setScroll(900);
             setSelectedText("Pós Operatório");
           }}
         >
