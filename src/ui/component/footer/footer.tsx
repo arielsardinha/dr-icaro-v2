@@ -9,7 +9,7 @@ const Footer = () => {
       <BoxFooter>
         <ContentText />
         <NextLink href="/">
-          <a>
+          <a rel="prev">
             <Logo src={"/logo.png"} alt={"icaro samuel"} title="icaro samuel" />
           </a>
         </NextLink>

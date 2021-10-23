@@ -84,7 +84,7 @@ const ProcedimentosDesktop = ({ text }) => {
       <BoxTextSelect isSelect={text === "Preparo Necessário"}>
         <h2>Preparo Necessário</h2>
         <p>
-          No <a href="">Dream Day</a> – dia da consulta com Dr. Ícaro Samuel - é
+          No Dream Day – dia da consulta com Dr. Ícaro Samuel - é
           realizadoa Bioimpedância da paciente.O exame proporciona uma abordagem
           integral e uniformizada dentro do contexto multidisciplinar, dando
           informações mais precisas sobre o estado nutricional da paciente, a
@@ -262,7 +262,7 @@ const ProcedimentosMobile = ({ text }) => {
       <BoxTextSelect>
         <h2>Preparo Necessário</h2>
         <p>
-          No <a href="">Dream Day</a> – dia da consulta com Dr. Ícaro Samuel - é
+          No Dream Day – dia da consulta com Dr. Ícaro Samuel - é
           realizadoa Bioimpedância da paciente.O exame proporciona uma abordagem
           integral e uniformizada dentro do contexto multidisciplinar, dando
           informações mais precisas sobre o estado nutricional da paciente, a

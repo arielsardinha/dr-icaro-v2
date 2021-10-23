@@ -15,8 +15,8 @@ const Procedmentos = () => (
           loading="lazy"
           title="protese de silicone"
         />
-        <NextLink href="/procedimentos/r24r-fast-track-recovery">
-          <a>prótese de silicone</a>
+        <NextLink href="/procedimentos/r24r-fast-track-recovery" passHref>
+          <a rel="next">prótese de silicone</a>
         </NextLink>
       </BoxImg>
       <BoxImg>
@@ -27,8 +27,8 @@ const Procedmentos = () => (
           loading="lazy"
           title="lipo hd feminina"
         />
-        <NextLink href="/procedimentos/lipo-lad-hd">
-          <a>lipo hd feminina</a>
+        <NextLink href="/procedimentos/lipo-lad-hd" passHref>
+          <a rel="next">lipo hd feminina</a>
         </NextLink>
       </BoxImg>
       <BoxImg>
@@ -39,8 +39,8 @@ const Procedmentos = () => (
           loading="lazy"
           title="abdominoplastia"
         />
-        <NextLink href="/procedimentos/abdominoplastia">
-          <a>abdominoplastia</a>
+        <NextLink href="/procedimentos/abdominoplastia" passHref>
+          <a rel="next">abdominoplastia</a>
         </NextLink>
       </BoxImg>
       <BoxImg>
@@ -51,8 +51,8 @@ const Procedmentos = () => (
           loading="lazy"
           title="mastopexia"
         />
-        <NextLink href="/procedimentos/mastopexia">
-          <a>mastopexia</a>
+        <NextLink href="/procedimentos/mastopexia" passHref>
+          <a rel="next">mastopexia</a>
         </NextLink>
       </BoxImg>
       <BoxImg>
@@ -63,8 +63,8 @@ const Procedmentos = () => (
           loading="lazy"
           title="ninfoplastia"
         />
-        <NextLink href="/procedimentos/ninfoplastia">
-          <a>ninfoplastia</a>
+        <NextLink href="/procedimentos/ninfoplastia" passHref>
+          <a rel="next">ninfoplastia</a>
         </NextLink>
       </BoxImg>
       <BoxImg>
@@ -75,8 +75,8 @@ const Procedmentos = () => (
           loading="lazy"
           title="lipo hd masculina"
         />
-        <NextLink href="/procedimentos/lipo-lad-hd">
-          <a>lipo hd masculina</a>
+        <NextLink href="/procedimentos/lipo-lad-hd" passHref>
+          <a rel="next">lipo hd masculina</a>
         </NextLink>
       </BoxImg>
     </BoxImgs>

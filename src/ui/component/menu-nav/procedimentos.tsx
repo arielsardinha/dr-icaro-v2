@@ -19,28 +19,33 @@ const Procedimentos = () => {
             overflow: "hidden",
           }}
         >
-          <NextLink href="/procedimentos/r24r-fast-track-recovery">
-            <Procedimento sx={{ mt: 5.5 }}>prótese de silicone</Procedimento>
+          <NextLink href="/procedimentos/r24r-fast-track-recovery" passHref>
+            <Procedimento rel="next" sx={{ mt: 5.5 }}>
+              prótese de silicone
+            </Procedimento>
           </NextLink>
 
-          <NextLink href="/procedimentos/lipo-lad-hd">
-            <Procedimento>lipo lad (lipo HD)</Procedimento>
+          <NextLink href="/procedimentos/lipo-lad-hd" passHref>
+            <Procedimento rel="next">lipo lad (lipo HD)</Procedimento>
           </NextLink>
 
-          <NextLink href="/procedimentos/abdominoplastia">
-            <Procedimento>abdominoplastia</Procedimento>
+          <NextLink href="/procedimentos/abdominoplastia" passHref>
+            <Procedimento rel="next">abdominoplastia</Procedimento>
           </NextLink>
 
-          <NextLink href="/procedimentos/mamoplastia-entenda-como-e-realizado-o-implante">
-            <Procedimento>mamoplastia</Procedimento>
+          <NextLink
+            href="/procedimentos/mamoplastia-entenda-como-e-realizado-o-implante"
+            passHref
+          >
+            <Procedimento rel="next">mamoplastia</Procedimento>
           </NextLink>
 
-          <NextLink href="/procedimentos/mastopexia">
-            <Procedimento>mastopexia</Procedimento>
+          <NextLink href="/procedimentos/mastopexia" passHref>
+            <Procedimento rel="next">mastopexia</Procedimento>
           </NextLink>
 
-          <NextLink href="/procedimentos/ninfoplastia">
-            <Procedimento>ninfoplastia</Procedimento>
+          <NextLink href="/procedimentos/ninfoplastia" passHref>
+            <Procedimento rel="next">ninfoplastia</Procedimento>
           </NextLink>
         </Box>
       </BoxProcedimentos>
@@ -62,12 +67,14 @@ export const SobreNos = () => {
           overflow: "hidden",
         }}
       >
-        <NextLink href="/dr-icaro-samuel">
-          <Procedimento sx={{ mt: 5.5 }}>Dr. Ícaro Samuel</Procedimento>
+        <NextLink href="/dr-icaro-samuel" passHref>
+          <Procedimento rel="next" sx={{ mt: 5.5 }}>
+            Dr. Ícaro Samuel
+          </Procedimento>
         </NextLink>
 
-        <NextLink href="/equipe">
-          <Procedimento>Equipe</Procedimento>
+        <NextLink href="/equipe" passHref>
+          <Procedimento rel="next">Equipe</Procedimento>
         </NextLink>
       </Box>
     </BoxProcedimentos>
@@ -87,12 +94,14 @@ export const Clinica = () => {
           overflow: "hidden",
         }}
       >
-        <NextLink href="/dream-day">
-          <Procedimento sx={{ mt: 5.5 }}>dream day</Procedimento>
+        <NextLink href="/dream-day" passHref>
+          <Procedimento rel="next" sx={{ mt: 5.5 }}>
+            dream day
+          </Procedimento>
         </NextLink>
 
-        <NextLink href="/galeria-icaro">
-          <Procedimento href="/galeria-icaro">galeria</Procedimento>
+        <NextLink href="/galeria-icaro" passHref>
+          <Procedimento rel="next">galeria</Procedimento>
         </NextLink>
       </Box>
     </BoxProcedimentos>

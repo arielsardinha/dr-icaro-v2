@@ -32,19 +32,25 @@ const HeaderDesktop = () => {
     <Header>
       <Toolbar component={Container}>
         <NavBar>
-          <NextLink href="/">
-            <LinkText>início</LinkText>
+          <NextLink href="/" passHref>
+            <a rel="prev">
+              <LinkText>início</LinkText>
+            </a>
           </NextLink>
           <SobreNos />
 
           <Procedimentos />
 
           <Clinica />
-          <NextLink href="/contato">
-            <LinkText>contato</LinkText>
+          <NextLink href="/contato" passHref>
+            <a rel="next">
+              <LinkText>contato</LinkText>
+            </a>
           </NextLink>
-          <NextLink href="/blog">
-            <LinkText>blog</LinkText>
+          <NextLink href="/blog" passHref>
+            <a rel="next">
+              <LinkText>blog</LinkText>
+            </a>
           </NextLink>
           <BoxIcons>
             <a
@@ -52,7 +58,11 @@ const HeaderDesktop = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/iconMenu/intagram.png" alt="instagram" title="instagram" />
+              <img
+                src="/iconMenu/intagram.png"
+                alt="instagram"
+                title="instagram"
+              />
             </a>
             <a
               href="https://www.tiktok.com/@dricarosamuel?lang=pt-BR"
@@ -66,7 +76,11 @@ const HeaderDesktop = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/iconMenu/facebook.png" alt="facebook" title="facebook" />
+              <img
+                src="/iconMenu/facebook.png"
+                alt="facebook"
+                title="facebook"
+              />
             </a>
             <a
               href="https://www.youtube.com/channel/UCWsp-p8Z33mjBAYqjXDoxZA"
@@ -108,13 +122,14 @@ const HeaderMobile = () => {
             <MenuItem>Dr.Ícaro Samuel</MenuItem>
             <Divider />
             <MenuItem sx={{ display: "flex", flexDirection: "column" }}>
-              <NextLink href="/">
+              <NextLink href="/" passHref>
                 <LinkText
                   style={{
                     marginBottom: "20px",
                     position: "relative",
                     zIndex: 1,
                   }}
+                  rel="prev"
                 >
                   início
                 </LinkText>
@@ -171,24 +186,26 @@ const HeaderMobile = () => {
                   <Clinica />
                 </button>
               </Box>
-              <NextLink href="/contato">
+              <NextLink href="/contato" passHref>
                 <LinkText
                   style={{
                     marginBottom: "20px",
                     position: "relative",
                     zIndex: 1,
                   }}
+                  rel="next"
                 >
                   contato
                 </LinkText>
               </NextLink>
-              <NextLink href="/blog">
+              <NextLink href="/blog" passHref>
                 <LinkText
                   style={{
                     marginBottom: "20px",
                     position: "relative",
                     zIndex: 1,
                   }}
+                  rel="next"
                 >
                   blog
                 </LinkText>
