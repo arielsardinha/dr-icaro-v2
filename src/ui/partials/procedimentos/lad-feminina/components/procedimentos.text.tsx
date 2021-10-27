@@ -16,18 +16,32 @@ const ProcedimentosDesktop = ({ text }) => {
       <BoxTextSelect isSelect={text === "lipoaspiração"}>
         <h2>Lipoaspiração</h2>
         <p>
-          A <span>lipoaspiração</span> comum é hoje um dos procedimentos mais
-          realizados no Brasil e no mundo. O procedimento remove depósitos de
-          gordura acumulados em diferentes partes do corpo, contribuindo para a
-          melhora dos contornos corporais.
+          A <span>lipoaspiração</span> de alta definição (Lipo LAD ou Lipo HD)
+          consiste em uma técnica inovadora, já utilizada na Colômbia, Estados
+          Unidos, França e Espanha a mais de uma década! Baseada em estudos da
+          anatomia corporal avançadas, é associada a tecnologia VASER que
+          minimiza os riscos e proporciona uma abordagem diferenciada nos
+          depósitos de gordura corporal. O principal objetivo do procedimento é
+          recuperar a definição muscular perdida em virtude do processo de
+          acumulo de gordura, além das vantagens da lipoaspiração convencional,
+          o procedimento restaura os grupamentos musculares, conferindo ao corpo
+          um aspecto mais atético, esse procedimento emprega uma técnica que
+          traz de volta as famosas "gominhas" do abdômen.
         </p>
         <p>
-          Ao longo dos anos, diversos cirurgiões pesquisaram e desenvolveram
-          técnicas que visam melhores resultados. Com os avanços na medicina e
-          na tecnologia, chegou-se a um divisor de águas na cirurgia plástica, o
-          advento de uma técnica muito mais refinada, que apresentam os melhores
-          resultados no contorno corporal e nas definições musculares em homens
-          e mulheres.
+          Criada pelo Cirurgião Plástico Alfredo Hoyos, ela permite uma visão
+          tridimensional do corpo. O procedimento é realizado em pessoas com um
+          percentual baixo de gordura que querem eliminar a gordura localizada.
+          Os resultados são perceptíveis logo que instantâneos, pois trabalha-se
+          a estrutura corporal localizada. Os resultados são perceptíveis logo
+          que instantâneos, pois trabalha-se a estrutura corporal da(o)
+          paciente, fazendo contornos com sombras que definem o corpo e deixam
+          com aspecto mais atlético. A técnica busca realçar a musculatura de
+          maneira artística, utilizando de tecnologias com vaser Lipo que
+          realiza a emulsificação da gordura e a retirada da mesma, o que
+          permite a cirurgia LAD 4D deixa mais evidente a musculatura, fazendo
+          com que sombras e contornos apareçam, delimitando assim curvas que
+          tragam um aspecto mais atlético a essa paciente.
         </p>
       </BoxTextSelect>
       <BoxTextSelect isSelect={text === "o que é a lipo lad"}>
@@ -161,18 +175,32 @@ const ProcedimentosMobile = ({ text }) => {
       <BoxTextSelect>
         <h2>Lipoaspiração</h2>
         <p>
-          A <span>lipoaspiração</span> comum é hoje um dos procedimentos mais
-          realizados no Brasil e no mundo. O procedimento remove depósitos de
-          gordura acumulados em diferentes partes do corpo, contribuindo para a
-          melhora dos contornos corporais.
+          A <span>lipoaspiração</span> de alta definição (Lipo LAD ou Lipo HD)
+          consiste em uma técnica inovadora, já utilizada na Colômbia, Estados
+          Unidos, França e Espanha a mais de uma década! Baseada em estudos da
+          anatomia corporal avançadas, é associada a tecnologia VASER que
+          minimiza os riscos e proporciona uma abordagem diferenciada nos
+          depósitos de gordura corporal. O principal objetivo do procedimento é
+          recuperar a definição muscular perdida em virtude do processo de
+          acumulo de gordura, além das vantagens da lipoaspiração convencional,
+          o procedimento restaura os grupamentos musculares, conferindo ao corpo
+          um aspecto mais atético, esse procedimento emprega uma técnica que
+          traz de volta as famosas "gominhas" do abdômen.
         </p>
         <p>
-          Ao longo dos anos, diversos cirurgiões pesquisaram e desenvolveram
-          técnicas que visam melhores resultados. Com os avanços na medicina e
-          na tecnologia, chegou-se a um divisor de águas na cirurgia plástica, o
-          advento de uma técnica muito mais refinada, que apresentam os melhores
-          resultados no contorno corporal e nas definições musculares em homens
-          e mulheres.
+          Criada pelo Cirurgião Plástico Alfredo Hoyos, ela permite uma visão
+          tridimensional do corpo. O procedimento é realizado em pessoas com um
+          percentual baixo de gordura que querem eliminar a gordura localizada.
+          Os resultados são perceptíveis logo que instantâneos, pois trabalha-se
+          a estrutura corporal localizada. Os resultados são perceptíveis logo
+          que instantâneos, pois trabalha-se a estrutura corporal da(o)
+          paciente, fazendo contornos com sombras que definem o corpo e deixam
+          com aspecto mais atlético. A técnica busca realçar a musculatura de
+          maneira artística, utilizando de tecnologias com vaser Lipo que
+          realiza a emulsificação da gordura e a retirada da mesma, o que
+          permite a cirurgia LAD 4D deixa mais evidente a musculatura, fazendo
+          com que sombras e contornos apareçam, delimitando assim curvas que
+          tragam um aspecto mais atlético a essa paciente.
         </p>
       </BoxTextSelect>
     );
