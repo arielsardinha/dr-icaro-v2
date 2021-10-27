@@ -1,6 +1,7 @@
 import { styled } from "@material-ui/core/styles";
 import { ArrowDropDown, ArrowDropUp } from "@material-ui/icons";
 import { useState } from "react";
+import { BoxImages } from "ui/component/header/header.styled";
 
 const Video = () => {
   const [open, setOpen] = useState(false);
@@ -28,6 +29,47 @@ const Video = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></Iframe>
+      <BoxImages style={{ display: open ? "grid" : "none" }}>
+        <a
+          href="http://www2.cirurgiaplastica.org.br/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/icons/cirurgia-plastica.png"
+            alt="cirurgia plastica"
+            loading="lazy"
+            title="cirurgia plastica"
+          />
+        </a>
+        <a
+          href="https://www.plasticsurgery.org/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/icons/american-society.png"
+            alt="american society"
+            loading="lazy"
+            title="american society"
+          />
+        </a>
+        <a
+          href="https://www.totaldefinerbrasil.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="/icons/total-define.png"
+            alt="total define"
+            loading="lazy"
+            title="total define"
+          />
+        </a>
+        <a>
+          <img src="/icons/rr.png" alt="R24R" loading="lazy" title="R24R" />
+        </a>
+      </BoxImages>
     </>
   );
 };
