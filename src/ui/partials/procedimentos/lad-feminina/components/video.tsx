@@ -91,7 +91,7 @@ const Iframe = styled("iframe")`
   }
 `;
 
-const Title = styled("h1")`
+const Title = styled("h3")`
   color: ${({ theme }) => theme.palette.text.secondary};
   font-weight: 300;
 
