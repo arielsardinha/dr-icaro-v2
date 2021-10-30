@@ -7,6 +7,7 @@ import {
   BoxInputs,
   InputTypeProcedimentos,
 } from "ui/component/dataProcedimentos/dataProcedimentos.styled";
+import { BoxIcons } from "ui/component/menu-nav/menuNav.styled";
 import ProcedimentosText from "./procedimentos.text";
 import Video from "./video";
 
@@ -91,6 +92,38 @@ const DataProcedimentos = () => {
         <BoxText>
           <ProcedimentosText text={selectedText} />
           <div style={{ display: isMobile ? "none" : "block" }}>
+            <BoxIcons>
+              <a
+                href="https://www.instagram.com/dricarosamuel/?hl=pt-br"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/iconMenu/intagram.png"
+                  alt="instagram"
+                  title="instagram"
+                />
+              </a>
+              <a
+                href="https://www.tiktok.com/@dricarosamuel?lang=pt-BR"
+                target="_blank"
+                rel="noreferrer"
+                style={{ margin: "0 10px" }}
+              >
+                <img src="/iconMenu/tiktok.png" alt="ticktok" title="ticktok" />
+              </a>
+              <a
+                href="https://www.facebook.com/dricarosamuel/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/iconMenu/facebook.png"
+                  alt="facebook"
+                  title="facebook"
+                />
+              </a>
+            </BoxIcons>
             <Video />
           </div>
         </BoxText>

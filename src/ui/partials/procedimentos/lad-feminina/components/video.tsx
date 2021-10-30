@@ -21,6 +21,7 @@ const Video = () => {
           <ArrowDropUp />
         </button>
       </BoxArrows> */}
+      <Title>Dr. Ícaro explica detalhes sobre a Lipo HD</Title>
       <Iframe
         src="https://www.youtube.com/embed/KNK3CsSLQUM"
         title="YouTube video player"
@@ -87,6 +88,15 @@ const Iframe = styled("iframe")`
   }
   ${({ theme }) => theme.breakpoints.down("xs")} {
     padding: ${({ theme }) => theme.spacing(3, 0)};
+  }
+`;
+
+const Title = styled("h1")`
+  color: ${({ theme }) => theme.palette.text.secondary};
+  font-weight: 300;
+
+  ${({ theme }) => theme.breakpoints.down("md")} {
+    font-size: 0.8em;
   }
 `;
 
