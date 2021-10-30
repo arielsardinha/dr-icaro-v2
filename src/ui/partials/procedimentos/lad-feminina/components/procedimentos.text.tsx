@@ -165,6 +165,38 @@ const ProcedimentosDesktop = ({ text }) => {
           resultado esperado de um corpo atlético e harmônico!
         </p>
       </BoxTextSelect>
+      <BoxTextSelect isSelect={text === "Sobre o Autor"}>
+        <h2>Sobre o Autor</h2>
+        <p>
+          Sou Ícaro Samuel, Cirurgião Plástico, apaixonado e eterno discente
+          sobre avanços tecnológicos e novas técnicas, principalmente no que
+          tange a Lipo HD. Minha paixão iniciou quando fiz o curso com o
+          Criador/Mestre da técnica Total Definer, Alfredo Hoyos, uma referência
+          mundial dentro do campo da Cirurgia Plástica. Pois, mais que realizar
+          a lipoaspiração de gordura, a técnica Total Definer esculpe corpos,
+          modelando conforme a musculatura do paciente, realçando seus contornos
+          e promovendo um corpo atlético e belo!
+        </p>
+        <p>
+          Aliado a técnica inovadora, busquei em feiras e congressos de
+          medicina, tecnologias que pudessem otimizar a qualidade do resultado,
+          e surpreendentemente encontrei o Vaser Lipo e o Vibro Lipo, duas
+          tecnologias que possibilitam um resultado ainda mais espetacular, por
+          promover a “colagem” da pele no músculo e diminuir a flacidez dos
+          locais lipados. Outro grande trunfo de nosso sucesso é a alta
+          performance dos resultados cirúrgicos através de uma equipe de
+          profissionais altamente qualificadas para o pós cirúrgico e
+          acompanhamento dos primeiros dias em home care, para quem mora em
+          Palmas.
+        </p>
+        <p>
+          Fora esses atendimentos personalizados, a Lipo de Alta Definição
+          inicia na pré consulta on-line e segue até 12 meses depois, com
+          acompanhamento dos resultados e apoio sobre qualquer dúvida ou
+          consideração referente ao procedimento. Isso tudo porque prezo pela
+          saúde, qualidade de vida e bem estar de minhas pacientes.
+        </p>
+      </BoxTextSelect>
     </>
   );
 };

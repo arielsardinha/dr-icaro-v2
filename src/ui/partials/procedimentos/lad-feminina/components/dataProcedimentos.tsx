@@ -45,7 +45,7 @@ const DataProcedimentos = () => {
           <InputTypeProcedimentos
             isSelected={selectedText === "benefícios"}
             onClick={() => {
-              setScroll(700);
+              setScroll(750);
               setSelectedText("benefícios");
             }}
           >
@@ -77,6 +77,15 @@ const DataProcedimentos = () => {
             }}
           >
             pré e pós operatório
+          </InputTypeProcedimentos>
+          <InputTypeProcedimentos
+            isSelected={selectedText === "Sobre o Autor"}
+            onClick={() => {
+              setScroll(1550);
+              setSelectedText("Sobre o Autor");
+            }}
+          >
+            Sobre o Autor
           </InputTypeProcedimentos>
         </BoxInputs>
         <BoxText>

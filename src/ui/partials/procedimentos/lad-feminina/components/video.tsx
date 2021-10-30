@@ -7,7 +7,7 @@ const Video = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <BoxArrows>
+      {/* <BoxArrows>
         <button
           onClick={() => setOpen(!open)}
           style={{ display: open ? "none" : "block" }}
@@ -20,16 +20,15 @@ const Video = () => {
         >
           <ArrowDropUp />
         </button>
-      </BoxArrows>
+      </BoxArrows> */}
       <Iframe
         src="https://www.youtube.com/embed/KNK3CsSLQUM"
         title="YouTube video player"
         frameBorder="0"
-        style={{ height: open ? "75vh" : "0" }}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></Iframe>
-      <BoxImages style={{ display: open ? "grid" : "none" }}>
+      <BoxImages>
         <a
           href="http://www2.cirurgiaplastica.org.br/"
           target="_blank"
@@ -78,6 +77,7 @@ export default Video;
 
 const Iframe = styled("iframe")`
   position: relative;
+  height: 75vh;
   z-index: 1;
   width: 100%;
   transition: 1s;
