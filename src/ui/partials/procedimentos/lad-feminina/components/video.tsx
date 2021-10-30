@@ -94,10 +94,12 @@ const Iframe = styled("iframe")`
 const Title = styled("h3")`
   color: ${({ theme }) => theme.palette.text.secondary};
   font-weight: 300;
-
+  font-size: 1.5em;
   ${({ theme }) => theme.breakpoints.down("md")} {
-    font-size: 0.8em;
+    font-size: 1em;
+    margin-left: 20px;
   }
+  
 `;
 
 const BoxArrows = styled("div")`
