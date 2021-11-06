@@ -17,7 +17,7 @@ const Clinica = () => (
         title="dream day"
       />
       <h2 style={{ textAlign: "center" }}>você merece o melhor!</h2>
-      <Video >
+      <Video autoPlay muted={true} controls={true} >
         <source src="/video/video1.mp4" type="video/mp4" />
       </Video>
       <Container>
