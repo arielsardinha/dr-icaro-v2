@@ -66,4 +66,8 @@ export const Logo = styled("img")`
   margin-bottom: ${({ theme }) => theme.spacing(10)};
 `;
 
-export const Video = styled("div")``;
+export const Video = styled("video")`
+  height: 400px;
+  width: 100%;
+  background-color: black;
+`;
