@@ -4,8 +4,8 @@ import {
   Logo,
   BoxTexts,
   Container,
-  Video,
 } from "./clinica.styled";
+import Videos from "./components/videos";
 import Carousel, { CarouselSegundo } from "./components/carouselPrincipal";
 
 const Clinica = () => (
@@ -17,9 +17,7 @@ const Clinica = () => (
         title="dream day"
       />
       <h2 style={{ textAlign: "center" }}>você merece o melhor!</h2>
-      <Video autoPlay muted={true} controls={true} >
-        <source src="/video/video1.mp4" type="video/mp4" />
-      </Video>
+      <Videos />
       <Container>
         <Carousel />
       </Container>

@@ -1,4 +1,4 @@
-import { Button, Container as MuiContainer } from "@material-ui/core";
+import { Button, Container as MuiContainer, Box } from "@material-ui/core";
 import { styled } from "@material-ui/core/styles";
 
 export const Section = styled("section")`
@@ -68,6 +68,27 @@ export const Logo = styled("img")`
 
 export const Video = styled("video")`
   height: 400px;
+  transition: 1s;
+  margin: 0 auto;
+`;
+
+export const ContainerVideo = styled(Box)`
+  display: flex;
+  align-items: center;
+  background-color: #000;
   width: 100%;
-  background-color: black;
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    svg {
+      color: #fff;
+    }
+    svg:hover {
+      color: #000;
+      transition: 0.5s;
+      border-radius: 50%;
+      background-color: ${({ theme }) => theme.palette.text.primary};
+    }
+  }
 `;
