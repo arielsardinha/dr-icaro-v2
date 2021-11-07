@@ -1,13 +1,12 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { Video, ContainerVideo } from "../clinica.styled";
 import { ArrowLeft, ArrowRight } from "@material-ui/icons";
-import useIsMobile, { useIsXdesktop } from "data/hook/useIsMobile";
+import useIsMobile from "data/hook/useIsMobile";
 
 const Videos = () => {
-  const [videos, setVideo] = useState([0, 1, 2, 3]),
+  const [videos] = useState([0, 1, 2, 3]),
     [positionVideo, setPositionVideo] = useState(0),
-    isMobile = useIsMobile(),
-    isDesktop = useIsXdesktop();
+    isMobile = useIsMobile();
 
   return (
     <ContainerVideo>
