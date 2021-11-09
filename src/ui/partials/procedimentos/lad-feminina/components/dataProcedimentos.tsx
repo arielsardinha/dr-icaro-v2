@@ -37,7 +37,7 @@ const DataProcedimentos = () => {
           <InputTypeProcedimentos
             isSelected={selectedText === "o que é a lipo lad"}
             onClick={() => {
-              setScroll(300);
+              setScroll(370);
               setSelectedText("o que é a lipo lad");
             }}
           >
@@ -46,13 +46,22 @@ const DataProcedimentos = () => {
           <InputTypeProcedimentos
             isSelected={selectedText === "benefícios"}
             onClick={() => {
-              setScroll(750);
+              setScroll(700);
               setSelectedText("benefícios");
             }}
           >
             benefícios
           </InputTypeProcedimentos>
           <InputTypeProcedimentos
+            isSelected={selectedText === "Lipo lad masculina"}
+            onClick={() => {
+              setScroll(750);
+              setSelectedText("Lipo lad masculina");
+            }}
+          >
+            Lipo lad masculina
+          </InputTypeProcedimentos>
+          {/* <InputTypeProcedimentos
             isSelected={selectedText === "indicação"}
             onClick={() => {
               setScroll(800);
@@ -60,11 +69,11 @@ const DataProcedimentos = () => {
             }}
           >
             indicação
-          </InputTypeProcedimentos>
+          </InputTypeProcedimentos> */}
           <InputTypeProcedimentos
             isSelected={selectedText === "procedimento"}
             onClick={() => {
-              setScroll(1000);
+              setScroll(900);
               setSelectedText("procedimento");
             }}
           >
@@ -73,11 +82,29 @@ const DataProcedimentos = () => {
           <InputTypeProcedimentos
             isSelected={selectedText === "pré e pós operatório"}
             onClick={() => {
-              setScroll(1200);
+              setScroll(1000);
               setSelectedText("pré e pós operatório");
             }}
           >
             pré e pós operatório
+          </InputTypeProcedimentos>
+          <InputTypeProcedimentos
+            isSelected={selectedText === "Qual o preço"}
+            onClick={() => {
+              setScroll(1200);
+              setSelectedText("Qual o preço");
+            }}
+          >
+            Qual o preço
+          </InputTypeProcedimentos>
+          <InputTypeProcedimentos
+            isSelected={selectedText === "Antes e depois"}
+            onClick={() => {
+              setScroll(1300);
+              setSelectedText("Antes e depois");
+            }}
+          >
+            Antes e depois
           </InputTypeProcedimentos>
           <InputTypeProcedimentos
             isSelected={selectedText === "Sobre o Autor"}
