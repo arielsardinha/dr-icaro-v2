@@ -21,7 +21,7 @@ const SobreNos = ({ sobreNos }) => {
             <source src="/video/backVideo.mp4" type="video/mp4" />
           </video>
 
-          <NextLink href="/dr-icaro-samuel" passHref>
+          <NextLink href="/dr-icaro-samuel.html" passHref>
             <a rel="next" className="boxIcaro">
               <UserInformation
                 name={"Dr. Ícaro Samuel"}

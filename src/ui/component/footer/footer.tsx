@@ -8,7 +8,7 @@ const Footer = () => {
     <Container>
       <BoxFooter>
         <ContentText />
-        <NextLink href="/">
+        <NextLink href="/index.html">
           <a rel="prev">
             <Logo src={"/logo.png"} alt={"icaro samuel"} title="icaro samuel" />
           </a>

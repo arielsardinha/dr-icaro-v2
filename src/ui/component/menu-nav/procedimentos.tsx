@@ -19,32 +19,32 @@ const Procedimentos = () => {
             overflow: "hidden",
           }}
         >
-          <NextLink href="/procedimentos/r24r-fast-track-recovery" passHref>
+          <NextLink href="/procedimentos/r24r-fast-track-recovery.html" passHref>
             <Procedimento rel="next" sx={{ mt: 5.5 }}>
               prótese de silicone
             </Procedimento>
           </NextLink>
 
-          <NextLink href="/procedimentos/lipo-lad-hd" passHref>
+          <NextLink href="/procedimentos/lipo-lad-hd.html" passHref>
             <Procedimento rel="next">lipo lad (lipo HD)</Procedimento>
           </NextLink>
 
-          <NextLink href="/procedimentos/abdominoplastia" passHref>
+          <NextLink href="/procedimentos/abdominoplastia.html" passHref>
             <Procedimento rel="next">abdominoplastia</Procedimento>
           </NextLink>
 
           <NextLink
-            href="/procedimentos/mamoplastia-entenda-como-e-realizado-o-implante"
+            href="/procedimentos/mamoplastia-entenda-como-e-realizado-o-implante.html"
             passHref
           >
             <Procedimento rel="next">mamoplastia</Procedimento>
           </NextLink>
 
-          <NextLink href="/procedimentos/mastopexia" passHref>
+          <NextLink href="/procedimentos/mastopexia.html" passHref>
             <Procedimento rel="next">mastopexia</Procedimento>
           </NextLink>
 
-          <NextLink href="/procedimentos/ninfoplastia" passHref>
+          <NextLink href="/procedimentos/ninfoplastia.html" passHref>
             <Procedimento rel="next">ninfoplastia</Procedimento>
           </NextLink>
         </Box>
@@ -67,13 +67,13 @@ export const SobreNos = () => {
           overflow: "hidden",
         }}
       >
-        <NextLink href="/dr-icaro-samuel" passHref>
+        <NextLink href="/dr-icaro-samuel.html" passHref>
           <Procedimento rel="next" sx={{ mt: 5.5 }}>
             Dr. Ícaro Samuel
           </Procedimento>
         </NextLink>
 
-        <NextLink href="/equipe" passHref>
+        <NextLink href="/equipe.html" passHref>
           <Procedimento rel="next">Equipe</Procedimento>
         </NextLink>
       </Box>
@@ -94,13 +94,13 @@ export const Clinica = () => {
           overflow: "hidden",
         }}
       >
-        <NextLink href="/dream-day" passHref>
+        <NextLink href="/dream-day.html" passHref>
           <Procedimento rel="next" sx={{ mt: 5.5 }}>
             dream day
           </Procedimento>
         </NextLink>
 
-        <NextLink href="/galeria-icaro" passHref>
+        <NextLink href="/galeria-icaro.html" passHref>
           <Procedimento rel="next">galeria</Procedimento>
         </NextLink>
       </Box>

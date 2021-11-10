@@ -32,7 +32,7 @@ const HeaderDesktop = () => {
     <Header>
       <Toolbar component={Container}>
         <NavBar>
-          <NextLink href="/" passHref>
+          <NextLink href="/index.html" passHref>
             <LinkText rel="prev">início</LinkText>
           </NextLink>
           <SobreNos />
@@ -43,7 +43,7 @@ const HeaderDesktop = () => {
           <NextLink href="/contato.html" passHref>
             <LinkText rel="next">contato</LinkText>
           </NextLink>
-          <NextLink href="/blog" passHref>
+          <NextLink href="/blog.html" passHref>
             <LinkText rel="next">blog</LinkText>
           </NextLink>
           <BoxIcons>
@@ -116,7 +116,7 @@ const HeaderMobile = () => {
             <MenuItem>Dr.Ícaro Samuel</MenuItem>
             <Divider />
             <MenuItem sx={{ display: "flex", flexDirection: "column" }}>
-              <NextLink href="/" passHref>
+              <NextLink href="/index.html" passHref>
                 <LinkText
                   style={{
                     marginBottom: "20px",
@@ -180,7 +180,7 @@ const HeaderMobile = () => {
                   <Clinica />
                 </button>
               </Box>
-              <NextLink href="/contato" passHref>
+              <NextLink href="/contato.html" passHref>
                 <LinkText
                   style={{
                     marginBottom: "20px",
@@ -192,7 +192,7 @@ const HeaderMobile = () => {
                   contato
                 </LinkText>
               </NextLink>
-              <NextLink href="/blog" passHref>
+              <NextLink href="/blog.html" passHref>
                 <LinkText
                   style={{
                     marginBottom: "20px",

@@ -15,7 +15,7 @@ const Procedmentos = () => (
           loading="lazy"
           title="Prótese de Silicone Recuperação em 24 horas"
         />
-        <NextLink href="/procedimentos/r24r-fast-track-recovery" passHref>
+        <NextLink href="/procedimentos/r24r-fast-track-recovery.html" passHref>
           <a rel="next">Prótese de Silicone Recuperação em 24 horas</a>
         </NextLink>
       </BoxImg>
@@ -27,7 +27,7 @@ const Procedmentos = () => (
           loading="lazy"
           title="Lipo HD (Lipo LAD)"
         />
-        <NextLink href="/procedimentos/lipo-lad-hd" passHref>
+        <NextLink href="/procedimentos/lipo-lad-hd.html" passHref>
           <a rel="next">Lipo HD (Lipo LAD)</a>
         </NextLink>
       </BoxImg>
@@ -39,7 +39,7 @@ const Procedmentos = () => (
           loading="lazy"
           title="abdominoplastia"
         />
-        <NextLink href="/procedimentos/abdominoplastia" passHref>
+        <NextLink href="/procedimentos/abdominoplastia.html" passHref>
           <a rel="next">abdominoplastia</a>
         </NextLink>
       </BoxImg>
@@ -51,7 +51,7 @@ const Procedmentos = () => (
           loading="lazy"
           title="mastopexia"
         />
-        <NextLink href="/procedimentos/mastopexia" passHref>
+        <NextLink href="/procedimentos/mastopexia.html" passHref>
           <a rel="next">mastopexia</a>
         </NextLink>
       </BoxImg>
@@ -63,7 +63,7 @@ const Procedmentos = () => (
           loading="lazy"
           title="ninfoplastia"
         />
-        <NextLink href="/procedimentos/ninfoplastia" passHref>
+        <NextLink href="/procedimentos/ninfoplastia.html" passHref>
           <a rel="next">ninfoplastia</a>
         </NextLink>
       </BoxImg>
