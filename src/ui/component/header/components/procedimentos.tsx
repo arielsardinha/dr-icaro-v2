@@ -10,25 +10,25 @@ const Procedmentos = () => (
       <BoxImg>
         <img
           src={"/protese-de-silicone.png"}
-          alt={"protese de silicone"}
+          alt={"Prótese de Silicone Recuperação em 24 horas"}
           data-aos="fade-left"
           loading="lazy"
-          title="protese de silicone"
+          title="Prótese de Silicone Recuperação em 24 horas"
         />
         <NextLink href="/procedimentos/r24r-fast-track-recovery" passHref>
-          <a rel="next">prótese de silicone</a>
+          <a rel="next">Prótese de Silicone Recuperação em 24 horas</a>
         </NextLink>
       </BoxImg>
       <BoxImg>
         <img
           src={"/lipo-hd-feminina.png"}
-          alt={"lipo hd feminina"}
+          alt={"Lipo HD (Lipo LAD)"}
           data-aos="fade-up"
           loading="lazy"
-          title="lipo hd feminina"
+          title="Lipo HD (Lipo LAD)"
         />
         <NextLink href="/procedimentos/lipo-lad-hd" passHref>
-          <a rel="next">lipo hd feminina</a>
+          <a rel="next">Lipo HD (Lipo LAD)</a>
         </NextLink>
       </BoxImg>
       <BoxImg>
@@ -69,14 +69,17 @@ const Procedmentos = () => (
       </BoxImg>
       <BoxImg>
         <img
-          src={"/lipo-hd-masculina.png"}
-          alt={"lipo hd masculina"}
+          src={"/mamoplastia.png"}
+          alt={"Mamoplastia"}
           data-aos="fade-right"
           loading="lazy"
-          title="lipo hd masculina"
+          title="Mamoplastia"
         />
-        <NextLink href="/procedimentos/lipo-lad-hd" passHref>
-          <a rel="next">lipo hd masculina</a>
+        <NextLink
+          href="/procedimentos/mamoplastia-entenda-como-e-realizado-o-implante"
+          passHref
+        >
+          <a rel="next">Mamoplastia</a>
         </NextLink>
       </BoxImg>
     </BoxImgs>

@@ -33,24 +33,18 @@ const HeaderDesktop = () => {
       <Toolbar component={Container}>
         <NavBar>
           <NextLink href="/" passHref>
-            <a rel="prev">
-              <LinkText>início</LinkText>
-            </a>
+            <LinkText rel="prev">início</LinkText>
           </NextLink>
           <SobreNos />
 
           <Procedimentos />
 
           <Clinica />
-          <NextLink href="/contato" passHref>
-            <a rel="next">
-              <LinkText>contato</LinkText>
-            </a>
+          <NextLink href="/contato.html" passHref>
+            <LinkText rel="next">contato</LinkText>
           </NextLink>
           <NextLink href="/blog" passHref>
-            <a rel="next">
-              <LinkText>blog</LinkText>
-            </a>
+            <LinkText rel="next">blog</LinkText>
           </NextLink>
           <BoxIcons>
             <a

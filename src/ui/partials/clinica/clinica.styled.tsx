@@ -67,20 +67,32 @@ export const Logo = styled("img")`
 `;
 
 export const Video = styled("video")`
-  height: 400px;
+  min-height: 500px;
+  max-height: 600px;
   transition: 1s;
   margin: 0 auto;
+  ${({ theme }) => theme.breakpoints.down("md")} {
+    min-height: 0;
+  }
 `;
 
 export const ContainerVideo = styled(Box)`
   display: flex;
   align-items: center;
-  background-color: #000;
   width: 100%;
+  background-color: #000 !important;
   button {
     border: none;
     background: none;
     cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    &.ArrowRight {
+      right: 0;
+    }
+    &.ArrowLeft {
+      left: 0;
+    }
     svg {
       color: #fff;
     }

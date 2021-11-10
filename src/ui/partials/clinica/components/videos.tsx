@@ -11,6 +11,7 @@ const Videos = () => {
   return (
     <ContainerVideo>
       <button
+        className="ArrowLeft"
         onClick={() => {
           setPositionVideo(
             videos.length - 1 === positionVideo
@@ -23,9 +24,7 @@ const Videos = () => {
       </button>
       <Video
         style={{
-          width: `${
-            videos[0] === positionVideo ? (isMobile ? "80%" : "100%") : "0"
-          }`,
+          width: `${videos[0] === positionVideo ? "100%" : "0"}`,
           position: `${videos[0] === positionVideo ? "relative" : "absolute"}`,
         }}
         muted={true}
@@ -37,9 +36,7 @@ const Videos = () => {
       </Video>
       <Video
         style={{
-          width: `${
-            videos[1] === positionVideo ? (isMobile ? "80%" : "100%") : "0"
-          }`,
+          width: `${videos[1] === positionVideo ? "100%" : "0"}`,
           position: `${videos[1] === positionVideo ? "relative" : "absolute"}`,
         }}
         controls={true}
@@ -49,9 +46,7 @@ const Videos = () => {
       </Video>
       <Video
         style={{
-          width: `${
-            videos[2] === positionVideo ? (isMobile ? "80%" : "100%") : "0"
-          }`,
+          width: `${videos[2] === positionVideo ? "100%" : "0"}`,
           position: `${videos[2] === positionVideo ? "relative" : "absolute"}`,
         }}
         controls={true}
@@ -61,9 +56,7 @@ const Videos = () => {
       </Video>
       <Video
         style={{
-          width: `${
-            videos[3] === positionVideo ? (isMobile ? "80%" : "100%") : "0"
-          }`,
+          width: `${videos[3] === positionVideo ? "100%" : "0"}`,
           position: `${videos[3] === positionVideo ? "relative" : "absolute"}`,
         }}
         controls={true}
@@ -72,6 +65,7 @@ const Videos = () => {
         <source src="/video/video4.mp4" type="video/mp4" />
       </Video>
       <button
+        className="ArrowRight"
         onClick={() => {
           setPositionVideo(
             0 === positionVideo ? positionVideo : positionVideo - 1

@@ -13,7 +13,7 @@ import { ServerStyleSheets } from "@material-ui/styles";
 export default class MyDocument extends Document {
   // estilos do next
   static async getInitialProps(
-    ctx: DocumentContext
+    ctx: DocumentContext,
   ): Promise<DocumentInitialProps> {
     const sheets = new ServerStyleSheets(),
       originalRenderPage = ctx.renderPage;
