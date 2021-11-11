@@ -10,7 +10,7 @@ export const BoxText = styled("div")`
     font-weight: bold;
   }
   ${({ theme }) => theme.breakpoints.up("md")} {
-    margin-left: 200px;
+    margin-left: 215px;
   }
   ${({ theme }) => theme.breakpoints.down("xs")} {
     padding: ${({ theme }) => theme.spacing(1)};
