@@ -5,7 +5,7 @@ import Mamoplastia from "@partials/procedimentos/mamoplastia/mamoplastia";
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      title: "Mamoplastia: entenda como é realizado o implamte",
+      title: "Mamoplastia: entenda como é realizado o implante",
     },
   };
 };
