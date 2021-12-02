@@ -32,7 +32,7 @@ const HeaderDesktop = () => {
     <Header>
       <Toolbar component={Container}>
         <NavBar>
-          <NextLink href="/index.html" passHref>
+          <NextLink href="/" passHref>
             <LinkText rel="prev">início</LinkText>
           </NextLink>
           <SobreNos />
@@ -116,7 +116,7 @@ const HeaderMobile = () => {
             <MenuItem>Dr.Ícaro Samuel</MenuItem>
             <Divider />
             <MenuItem sx={{ display: "flex", flexDirection: "column" }}>
-              <NextLink href="/index.html" passHref>
+              <NextLink href="/" passHref>
                 <LinkText
                   style={{
                     marginBottom: "20px",
