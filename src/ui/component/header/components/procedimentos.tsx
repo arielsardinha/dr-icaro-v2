@@ -76,7 +76,7 @@ const Procedmentos = () => (
           title="Mamoplastia"
         />
         <NextLink
-          href="/procedimentos/mamoplastia-entenda-como-e-realizado-o-implante"
+          href="/procedimentos/mamoplastia-entenda-como-e-realizado-o-implante.html"
           passHref
         >
           <a rel="next">Mamoplastia</a>
