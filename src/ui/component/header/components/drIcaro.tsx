@@ -33,6 +33,7 @@ const DrIcaro = () => (
         Busca sempre através de um tratamento amplo de corpo e mente impactar
         vidas e cuidar de pessoas!
       </p>
+      <p>Embaixador Total Definer Brasil</p>
       <BoxImages>
         <a
           href="http://www2.cirurgiaplastica.org.br/"
