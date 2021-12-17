@@ -82,6 +82,15 @@ const DataProcedimentos = () => {
           >
             Pós Operatório
           </InputTypeProcedimentos>
+          <InputTypeProcedimentos
+            isSelected={selectedText === "Sobre o Autor"}
+            onClick={() => {
+              setScroll(1300);
+              setSelectedText("Sobre o Autor");
+            }}
+          >
+            Sobre o Autor
+          </InputTypeProcedimentos>
         </BoxInputs>
         <BoxText>
           <ProcedimentosText text={selectedText} />

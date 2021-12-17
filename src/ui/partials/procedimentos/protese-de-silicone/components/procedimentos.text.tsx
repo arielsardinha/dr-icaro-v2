@@ -123,6 +123,32 @@ const ProcedimentosDesktop = ({ text }) => {
           paciente tenha hábitos de vida mais saudáveis.
         </p>
       </BoxTextSelect>
+      <BoxTextSelect isSelect={text === "Sobre o Autor"}>
+        <h2>Sobre o Autor</h2>
+        <p>
+          Sou Ícaro Samuel, Cirurgião Plástico, apaixonado e eterno discente
+          sobre avanços tecnológicos e novas técnicas, principalmente no que
+          tange a Lipo HD. Minha paixão iniciou quando fiz o curso com o
+          Criador/Mestre da técnica Total Definer, Alfredo Hoyos, uma referência
+          mundial dentro do campo da Cirurgia Plástica. Pois, mais que realizar
+          a lipoaspiração de gordura, a técnica Total Definer esculpe corpos,
+          modelando conforme a musculatura do paciente, realçando seus contornos
+          e promovendo um corpo atlético e belo!
+        </p>
+        <p>Sou Embaixador Total Definer Brasil.</p>
+        <p>
+          Aliado a técnica inovadora, busquei em feiras e congressos de
+          medicina, tecnologias que pudessem otimizar a qualidade do resultado,
+          e surpreendentemente encontrei o Vaser Lipo e o Vibro Lipo, duas
+          tecnologias que possibilitam um resultado ainda mais espetacular, por
+          promover a “colagem” da pele no músculo e diminuir a flacidez dos
+          locais lipados. Outro grande trunfo de nosso sucesso é a alta
+          performance dos resultados cirúrgicos através de uma equipe de
+          profissionais altamente qualificadas para o pós cirúrgico e
+          acompanhamento dos primeiros dias em Homecare, para quem mora em
+          Palmas.
+        </p>
+      </BoxTextSelect>
     </>
   );
 };
@@ -252,6 +278,35 @@ const ProcedimentosMobile = ({ text }) => {
           8 horas antes do procedimento, é preciso fazer jejum absoluto de
           alimentos sólidos e líquidos. É necessário interromper o consumo de
           bebidas alcoólicas e fumo para realizar a cirurgia.
+        </p>
+      </BoxTextSelect>
+    );
+    if (text === "Sobre o Autor")
+    return (
+      <BoxTextSelect>
+        <h2>Sobre o Autor</h2>
+        <p>
+          Sou Ícaro Samuel, Cirurgião Plástico, apaixonado e eterno discente
+          sobre avanços tecnológicos e novas técnicas, principalmente no que
+          tange a Lipo HD. Minha paixão iniciou quando fiz o curso com o
+          Criador/Mestre da técnica Total Definer, Alfredo Hoyos, uma referência
+          mundial dentro do campo da Cirurgia Plástica. Pois, mais que realizar
+          a lipoaspiração de gordura, a técnica Total Definer esculpe corpos,
+          modelando conforme a musculatura do paciente, realçando seus contornos
+          e promovendo um corpo atlético e belo!
+        </p>
+        <p>Sou Embaixador Total Definer Brasil.</p>
+        <p>
+          Aliado a técnica inovadora, busquei em feiras e congressos de
+          medicina, tecnologias que pudessem otimizar a qualidade do resultado,
+          e surpreendentemente encontrei o Vaser Lipo e o Vibro Lipo, duas
+          tecnologias que possibilitam um resultado ainda mais espetacular, por
+          promover a “colagem” da pele no músculo e diminuir a flacidez dos
+          locais lipados. Outro grande trunfo de nosso sucesso é a alta
+          performance dos resultados cirúrgicos através de uma equipe de
+          profissionais altamente qualificadas para o pós cirúrgico e
+          acompanhamento dos primeiros dias em Homecare, para quem mora em
+          Palmas.
         </p>
       </BoxTextSelect>
     );
