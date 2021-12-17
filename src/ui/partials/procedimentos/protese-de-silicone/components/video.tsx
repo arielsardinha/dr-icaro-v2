@@ -21,9 +21,9 @@ const Video = () => {
           <ArrowDropUp />
         </button>
       </BoxArrows> */}
-      <Title>Dr. Ícaro explica detalhes sobre protese de silicone</Title>
+      <Title>Dr Ícaro explica detalhes sobre a R24R - Fast Track Recovery</Title>
       <Iframe
-        src="https://www.youtube.com/embed/DpNDyetdbsw"
+        src="https://www.youtube.com/embed/KNyQgmB08SM"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
